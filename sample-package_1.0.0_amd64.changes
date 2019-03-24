@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 23 Mar 2019 20:02:45 +0100
+Source: sample-package
+Binary: sample-package
+Architecture: source amd64
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Changed-By: Jose A. Múrcia <joamuran@gmail.com>
+Description:
+ sample-package - <insert up to 60 chars description>
+Changes:
+ sample-package (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 47d9f5471b6b23fb07295b535ce453f3ad35ffa7 598 sample-package_1.0.0.dsc
+ 2420216640305a5229f2af6108df4362995195b5 6152 sample-package_1.0.0.tar.xz
+ 598cf6d92128a1a0ca8ded5a208bd7694c1eba77 5512 sample-package_1.0.0_amd64.buildinfo
+ acbdc5ae6af151759df35ba28cf5a27bc63f5ef9 1956 sample-package_1.0.0_amd64.deb
+Checksums-Sha256:
+ 42965ff436f3685fe7ae9897c34166b7d5de6cbad1a5fd5de5d0ab0bce86ec4e 598 sample-package_1.0.0.dsc
+ 5cf530cb6def62f8685da25168445143704f31935f54ef4dd72a976fa5da2405 6152 sample-package_1.0.0.tar.xz
+ aa9dbfd3565591142b2d0febd00fabaec466449d69778cbe30838c5eaec3bf2f 5512 sample-package_1.0.0_amd64.buildinfo
+ 4a24fb9ea463cc29d8796611943c45bbeca0240632670d25eb3363ab88e777dc 1956 sample-package_1.0.0_amd64.deb
+Files:
+ efe17f0c282eb9c06e0c0ef4d8920111 598 unknown optional sample-package_1.0.0.dsc
+ 4b8ce93ba7b27f3bfa97f1c79c67a0f7 6152 unknown optional sample-package_1.0.0.tar.xz
+ 1f9269714858e9dd2cc6d9aa225781e7 5512 unknown optional sample-package_1.0.0_amd64.buildinfo
+ 9bdfd288c7688cdbd08f081774945b65 1956 unknown optional sample-package_1.0.0_amd64.deb
