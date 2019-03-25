@@ -19,6 +19,9 @@
 *.rar
 *.tar
 *.zip
+*.changes
+*.deb
+*.buildinfo
 
 # Logs and databases #
 ######################

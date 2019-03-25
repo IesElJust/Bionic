@@ -224,6 +224,7 @@ app /usr/share
 
 * build-essential
 * devscripts
+* debhelper
 
 ## Algunes lectures de base
 
