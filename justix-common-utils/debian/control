@@ -1,0 +1,14 @@
+Source: justix-common-utils
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-common-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, tilix, vim, tree
+Description: Common justix tools
+ Metapackage for Commont tools
+ for Justix.
