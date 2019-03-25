@@ -21,7 +21,14 @@
 *.zip
 *.changes
 *.deb
+*.dsc
+*.xz
 *.buildinfo
+*.debhelper
+*/debian/debhelper-build-stamp
+*/debian/files
+*.substvars
+
 
 # Logs and databases #
 ######################
@@ -38,3 +45,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
