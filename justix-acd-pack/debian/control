@@ -8,6 +8,6 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-acd-pack
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs
+Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs, mongodb-org
 Description: Meta for ACD module
  Metapackage for ACD Module in 2nd DAM
