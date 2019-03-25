@@ -1,0 +1,13 @@
+Source: justix-external-sources
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-external-sources
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: External sources for Justix
+ External sources for Justix
