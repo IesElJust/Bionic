@@ -1,0 +1,14 @@
+Source: justix-network-pack
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-network-pack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, nmap, openssh-server, openssh-client, filezilla
+Description: Nerworking justix pack
+ Metapackage for Commont networking tools
+ for Justix.
