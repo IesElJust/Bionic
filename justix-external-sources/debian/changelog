@@ -1,3 +1,9 @@
+justix-external-sources (0.0.2ubuntu1) UNRELEASED; urgency=medium
+
+  * Added Google Chrome sources.list
+
+ -- Jose <joamuran@gmail.com>  Thu, 28 Mar 2019 12:53:44 +0100
+
 justix-external-sources (0.0.2) Bionic; urgency=high
 
   * Added VSCode sources.list and MS GPG Keys
