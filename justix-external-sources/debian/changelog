@@ -1,3 +1,9 @@
+justix-external-sources (0.0.4) bionic; urgency=high
+
+  * Added curl predepends
+
+ -- Jose <joamuran@gmail.com>  Thu, 28 Mar 2019 13:27:49 +0100
+
 justix-external-sources (0.0.3) bionic; urgency=medium
 
   * Added Google Chrome sources.list
