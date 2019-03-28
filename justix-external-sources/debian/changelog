@@ -1,4 +1,4 @@
-justix-external-sources (0.0.2ubuntu1) UNRELEASED; urgency=medium
+justix-external-sources (0.0.3) bionic; urgency=medium
 
   * Added Google Chrome sources.list
 
