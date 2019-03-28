@@ -1,0 +1,15 @@
+Source: justix-devel-pack
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-devel-pack
+Architecture: any
+Pre-Depends: justix-external-sources
+Depends: ${shlibs:Depends}, ${misc:Depends}, brackets, vscode
+Description: Developement justix pack
+ Metapackage for Common Developement tools
+ for Justix.

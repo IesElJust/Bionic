@@ -1,3 +1,9 @@
+justix-external-sources (0.0.2) Bionic; urgency=high
+
+  * Added VSCode sources.list and MS GPG Keys
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Thu, 28 Mar 2019 12:04:09 +0100
+
 justix-external-sources (0.0.1) bionic; urgency=medium
 
   * Initial Release.
