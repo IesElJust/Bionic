@@ -28,6 +28,8 @@
 */debian/debhelper-build-stamp
 */debian/files
 *.substvars
+*.build
+*.upload
 
 
 # Logs and databases #
@@ -46,3 +48,5 @@
 ehthumbs.db
 Thumbs.db
 
+# Node
+node_modules/

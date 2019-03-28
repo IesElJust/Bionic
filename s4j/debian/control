@@ -1,0 +1,14 @@
+Source: s4j
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: s4j
+Architecture: any
+Depends: nodejs, npm
+Description: Services for Justix
+ Peckage to perform some root functions
+ from common users
