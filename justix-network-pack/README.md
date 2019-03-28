@@ -10,3 +10,4 @@ Metapaquet d'eines per a xarxes i serveis.
 | openssh-server | Servidor d'OpenSSH | Ubuntu |
 | openssh-client | Client d'OpenSSH | Ubuntu |
 | filezilla | Client d'FTP | Ubuntu |
+| google-chrome-stable | Navegador Google Chrome | Ppa Google |

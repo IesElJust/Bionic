@@ -8,7 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-network-pack
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, nmap, openssh-server, openssh-client, filezilla
+Depends: ${shlibs:Depends}, ${misc:Depends}, nmap, openssh-server, openssh-client, filezilla, google-chrome-stable
 Description: Nerworking justix pack
  Metapackage for Commont networking tools
  for Justix.
