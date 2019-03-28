@@ -1,3 +1,9 @@
+justix-network-pack (0.0.2) bionic; urgency=medium
+
+  * Added Google Chrome
+
+ -- Jose <joamuran@gmail.com>  Thu, 28 Mar 2019 13:04:58 +0100
+
 justix-network-pack (0.0.1) bionic; urgency=medium
 
   * Initial Release.
