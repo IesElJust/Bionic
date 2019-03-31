@@ -13,6 +13,7 @@
     "jayson": "^2.1.2"
   },
   "devDependencies": {
+    "terser-webpack-plugin": "^1.2.3",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
