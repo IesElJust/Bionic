@@ -1,0 +1,17 @@
+[Unit]
+Description=Services for JustiX
+
+[Service]
+ExecStart=nodejs /usr/share/s4j/s4j-server.js
+# Required on some systems
+Restart=always
+# Restart service after 10 seconds if node service crashes
+RestartSec=10
+# Output to syslog
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=s4j-server
+Environment=NODE_ENV=production PORT=6996
+
+[Install]
+WantedBy=multi-user.target

@@ -4,7 +4,7 @@ const basePath = __dirname;
 const distPath = 'dist';
 
 const webpackInitConfig = {
-    mode: 'development',
+    mode: 'production',
     resolve: {
         extensions: ['.js']
     },
@@ -14,7 +14,9 @@ const webpackInitConfig = {
     output: {
         path: path.join(basePath, distPath),
         filename: 's4j-client.js'
-    }
+    },
+    target: 'node'
+    
 };
 
 module.exports = webpackInitConfig;
