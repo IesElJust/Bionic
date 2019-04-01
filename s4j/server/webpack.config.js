@@ -21,7 +21,7 @@ const webpackInitConfig = {
         minimizer: [new TerserPlugin({
             terserOptions: {
                 output:{
-                    max_line_len: 255
+                    max_line_len: 15
                 }
               }
           

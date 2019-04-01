@@ -2,7 +2,7 @@
 Description=Services for JustiX
 
 [Service]
-ExecStart=nodejs /usr/share/s4j/s4j-server.js
+ExecStart=/usr/bin/nodejs /usr/share/s4j/s4j-server.js
 # Required on some systems
 Restart=always
 # Restart service after 10 seconds if node service crashes
