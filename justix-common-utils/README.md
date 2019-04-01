@@ -10,3 +10,4 @@ Metapaquet d'eines d'ús comú.
 | vim | Editor en mode text | Ubuntu |
 | tree | Utilitat per mostrar l'arbre de directoris | Ubuntu |
 | hwinfo | Utilitat per mostrar el maquinari del sistema | Ubuntu |
+| virtualbox | Hipervisor de màquines virtuals | Oracle |
