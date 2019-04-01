@@ -1,0 +1,14 @@
+Source: justix-multimedia-pack
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-multimedia-pack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, inkscape, audcity, kdenlive
+Description: Multimedia pack for Justix
+ Metapackage for Multimedia and
+ design tools.
