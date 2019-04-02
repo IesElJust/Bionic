@@ -8,7 +8,8 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-common-utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, tilix, vim, tree
+Pre-Depends: justix-external-sources
+Depends: ${shlibs:Depends}, ${misc:Depends}, tilix, vim, tree, virtualbox-6.0
 Description: Common justix tools
- Metapackage for Commont tools
+ Metapackage for Common tools
  for Justix.

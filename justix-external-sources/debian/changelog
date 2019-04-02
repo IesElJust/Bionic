@@ -1,3 +1,9 @@
+justix-external-sources (0.0.5) bionic; urgency=medium
+
+  * Added Oracle VBox sources.list
+
+ -- Jose A. Múrcia <joamurangmail.com>  Mon, 01 Apr 2019 16:57:21 +0200
+
 justix-external-sources (0.0.4) bionic; urgency=high
 
   * Added curl predepends
