@@ -7,7 +7,7 @@ Standards-Version: 4.1.2
 Homepage: https://github.com/IesElJust
 
 Package: justix-external-sources
-Architecture: any
+Architecture: all
 Pre-Depends: apt-transport-https,curl
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: External sources for Justix
