@@ -1,3 +1,9 @@
+libpng (1.2.54-1ubuntu1.2) xenial; urgency=high
+
+  * Fixed changelog
+
+ -- Jose <joamuran@gmail.com>  Thu, 04 Apr 2019 19:44:04 +0200
+
 libpng (1.2.54-1ubuntu1.1) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Null pointer dereference
