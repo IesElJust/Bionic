@@ -1,3 +1,9 @@
+justix-devel-pack (0.0.2) bionic; urgency=medium
+
+  * Added pseint
+
+ -- Jose <joamuran@gmail.com>  Thu, 04 Apr 2019 19:53:16 +0200
+
 justix-devel-pack (0.0.1) bionic; urgency=medium
 
   * Initial Release.
