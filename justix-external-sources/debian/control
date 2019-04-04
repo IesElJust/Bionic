@@ -8,7 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-external-sources
 Architecture: all
-Pre-Depends: apt-transport-https,curl
+Pre-Depends: apt-transport-https,curl, ca-certificates, software-properties-common
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: External sources for Justix
  External sources for Justix

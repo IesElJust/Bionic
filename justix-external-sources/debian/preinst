@@ -35,6 +35,8 @@ case "$1" in
    echo "[Justix] Importing Oracle Virtualbox keys..."
    wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 
+    # Docker
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
     ;;
 
     abort-upgrade)
