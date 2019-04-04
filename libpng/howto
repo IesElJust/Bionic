@@ -1,0 +1,11 @@
+1. Install dpkg-dev package if not present in your linux machine(use sudo apt-get install dpkg-dev)
+2. dpkg-source -x yourfile.dsc (this will create a directory and extract the package into it)
+3. To build the package go to the directory that got created in 2nd step and issue below command
+
+dpkg-buildpackage -rfakeroot -b
+
+4. to install the built package issue below command
+
+dpkg -i ../yourfile_arch.deb
+
+Above step should install the .dsc file.

@@ -1,0 +1,13 @@
+Source: justix-pseint
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-pseint
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Binaries for pseint
+ Package with pseint binaries.

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=PSeInt - Editor e intérprete de pseudocódigo
+Encoding=UTF-8
+Name=pseint
+Type=Application
+Categories=Development
+Icon=pseint
+Exec="/opt/pseint/wxPSeInt"
