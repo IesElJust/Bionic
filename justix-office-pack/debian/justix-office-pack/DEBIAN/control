@@ -1,0 +1,12 @@
+Package: justix-office-pack
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Installed-Size: 9
+Depends: mysql-workbench, mongodb-org
+Section: devel
+Priority: standard
+Homepage: https://github.com/IesElJust
+Description: Office pack for Justix
+ Metapackage for extra libreoffice extra
+ packages.
