@@ -1,3 +1,9 @@
+justix-common-utils (0.0.3) bionic; urgency=medium
+
+  * Added alumne restrictions to sudoers file
+
+ -- Jose <joamuran@gmail.com>  Tue, 23 Apr 2019 15:58:44 +0200
+
 justix-common-utils (0.0.2) bionic; urgency=medium
 
   * Added Virtualbox

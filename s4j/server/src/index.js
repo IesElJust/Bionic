@@ -61,7 +61,11 @@ var server = jayson.server({
     },
 
     upgrade: function (args, callback) {
-        exec (["-y", "dist-upgrade"], args, callback);
+        
+        //exec (["-y", "dist-upgrade"], args, callback);
+        let command='DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade';
+        exec (command.split(" "), args, callback);
+
     }
 
 
