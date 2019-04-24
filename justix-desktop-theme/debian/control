@@ -1,0 +1,14 @@
+Source: justix-desktop-theme
+Section: misc
+Priority: optional
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: www.ieseljust.com
+
+Package: justix-desktop-theme
+Architecture: any
+Depends: ${misc:Depends}, plank, arc-theme, xenlism-wildfire-icon-theme
+Description: Theme for Justix
+ Desktop theme configurtion files
+ for Justix.

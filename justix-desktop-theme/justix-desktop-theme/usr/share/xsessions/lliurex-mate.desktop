@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=LliureX MATE
+Name[ca]=LliureX MATE
+Name[ca@valencia]=LliureX MATE
+Name[es]=LliureX MATE
+Comment=This session logs you into LliureX MATE
+Comment[ca]=Aquesta sessió us entra al LliureX MATE
+Comment[ca@valencia]=Esta sessió vos entra al LliureX MATE
+Comment[es]=Esta sesión accede a LliureX MATE
+Exec=mate-session
+TryExec=mate-session
+Icon=
+Type=Application
+DesktopNames=MATE
+Keywords=launch;MATE;desktop;session;
+

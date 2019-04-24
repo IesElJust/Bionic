@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=LliureX MATE (Compiz)
+Name[ca]=LliureX MATE (Compiz)
+Name[ca@valencia]=LliureX MATE (Compiz)
+Name[es]=LliureX MATE (Compiz)
+Comment=This session logs you into LliureX MATE (Compiz)
+Comment[ca]=Aquesta sessió us entra al LliureX MATE (Compiz)
+Comment[ca@valencia]=Esta sessió vos entra al LliureX MATE (Compiz)
+Comment[es]=Esta sesión accede a LliureX MATE (Compiz)
+Exec=mate-session-compiz
+TryExec=mate-session-compiz
+Icon=
+Type=Application
+DesktopNames=MATE
+Keywords=launch;MATE;desktop;session;
+

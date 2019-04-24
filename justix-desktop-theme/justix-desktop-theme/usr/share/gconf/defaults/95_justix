@@ -1,0 +1,4 @@
+/apps/metacity/general/theme	Arc-Dark
+/apps/metacity/general/num_workspaces		2
+/apps/metacity/general/button_layout menu:minimize,maximize,close
+/apps/metacity/window_keybindings/toggle_maximized <Alt>F10

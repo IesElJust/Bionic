@@ -1,0 +1,89 @@
+[net/launchpad/plank/docks/dock1]
+icon-size=46
+show-dock-item=false
+position='bottom'
+dock-items=['desktop.dockitem', 'matecc.dockitem', 'firefox.dockitem']
+unhide-delay=0
+items-alignment='center'
+theme='Arc'
+hide-mode='intelligent'
+pinned-only=false
+auto-pinning=true
+alignment='center'
+zoom-percent=130
+hide-delay=0
+zoom-enabled=true
+monitor=''
+lock-items=false
+tooltips-enabled=true
+pressure-reveal=false
+offset=0
+current-workspace-only=false
+
+[org/gnome/metacity]
+theme='Arc-Dark'
+
+[org/gnome/desktop/wm/preferences]
+theme='Arc-Dark'
+titlebar-font='Noto Sans Bold 11'
+
+[org/mate/caja/desktop]
+font='Noto Sans 11'
+
+[org/mate/panel/general]
+show-program-list=false
+toplevel-id-list=['top']
+history-mate-run=['pluma', 'scite']
+object-id-list=['briskermenu', 'notification-area','workspace-switcher','indicatorappletcomplete', 'clock', 'object-0']
+
+[org/mate/panel/toplevels/top]
+expand=true
+orientation='top'
+screen=0
+size=24
+
+[org/mate/panel/objects/clock]
+applet-iid='ClockAppletFactory::ClockApplet'
+locked=true
+toplevel-id='top'
+position=10
+object-type='applet'
+panel-right-stick=true
+
+[org/mate/panel/objects/clock/prefs]
+format='24-hour'
+custom-format=''
+
+[org/mate/panel/objects/notification-area]
+applet-iid='NotificationAreaAppletFactory::NotificationArea'
+locked=true
+toplevel-id='top'
+position=20
+object-type='applet'
+panel-right-stick=true
+
+[org/mate/panel/objects/menu-bar]
+locked=true
+toplevel-id='top'
+position=0
+object-type='menu-bar'
+
+[org/mate/marco/general]
+theme='Arc-Dark'
+titlebar-font='Noto Sans Bold 11'
+
+[org/mate/desktop/background]
+picture-options='stretched'
+picture-filename='/usr/share/backgrounds/justix-bg1.png'
+
+[org/mate/desktop/session/required-components]
+dock='plank'
+windowmanager='marco'
+
+[org/mate/desktop/interface]
+menus-have-icons=true
+font-name='Noto Sans 11'
+document-font-name='Noto Sans 11'
+icon-theme='Xenlism-Wildfire'
+gtk-theme='Arc'
+monospace-font-name='Ubuntu Mono 13'

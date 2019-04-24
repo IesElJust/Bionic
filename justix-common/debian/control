@@ -1,0 +1,14 @@
+Source: justix-common
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: Common justix config
+ Common users config for
+ Justix.
