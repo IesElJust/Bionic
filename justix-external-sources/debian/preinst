@@ -37,10 +37,13 @@ case "$1" in
 
     # Docker
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    ;;
-
+    
     # Xenlism icon theme
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
+    
+    ;;
+
+    
 
     abort-upgrade)
     ;;
