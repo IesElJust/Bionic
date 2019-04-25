@@ -1,3 +1,9 @@
+justix-external-sources (0.0.7) bionic; urgency=medium
+
+  * Fixed preinst script
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Apr 2019 22:22:08 +0200
+
 justix-external-sources (0.0.6) bionic; urgency=medium
 
   * Added xenlism ppa for icon theme

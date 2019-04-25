@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Justix MATE
+Name[ca]=Justix MATE
+Name[ca@valencia]=Justix MATE
+Name[es]=Justix MATE
+Comment=This session logs you into Justix MATE
+Comment[ca]=Aquesta sessió us entra alJustix MATE
+Comment[ca@valencia]=Esta sessió vos entra alJustix  MATE
+Comment[es]=Esta sesión accede aJustix MATE
+Exec=mate-session
+TryExec=mate-session
+Icon=
+Type=Application
+DesktopNames=MATE
+Keywords=launch;MATE;desktop;session;
+

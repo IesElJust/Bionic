@@ -16,31 +16,42 @@ set -e
 
 case "$1" in
     install|upgrade)
+
+    gpgconf --kill dirmngr
+
     # Adding keys for sources
+   
+    echo "\e[1m\e[93m [Justix] \e[95m Downloading mongoDB keys... \e[0m"
+    curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x68818C72E52529D4" | gpg --dearmor > /tmp/mongodb.gpg
+    install -o root -g root -m 644 /tmp/mongodb.gpg /etc/apt/trusted.gpg.d/
 
-    # Mongodb-org:  https://repo.mongodb.org/apt/ubuntu  
-    echo "[Justix] Importing Mongodb-org keys..."
-    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+    echo "\e[1m\e[93m [Justix] \e[95m Downloading VSCode keys... \e[0m"
+    curl "https://packages.microsoft.com/keys/microsoft.asc" | gpg --dearmor > /tmp/microsoft.gpg
+    install -o root -g root -m 644 /tmp/microsoft.gpg /etc/apt/trusted.gpg.d/
 
-    # MS GPG key for VSCode
-    echo "[Justix] Importing VSCode keys..."
-   curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /tmp/microsoft.gpg
-   install -o root -g root -m 644 /tmp/microsoft.gpg /etc/apt/trusted.gpg.d/
+    # Google Chrome Key
+    echo "\e[1m\e[93m [Justix] \e[95m Importing Google Chrome keys... \e[0m"
+    curl "https://dl-ssl.google.com/linux/linux_signing_key.pub" | gpg --dearmor > /tmp/google.gpg
+    install -o root -g root -m 644 /tmp/google.gpg /etc/apt/trusted.gpg.d/
 
-   # Google Chrome Key
-   echo "[Justix] Importing Google Chrome keys..."
-   wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-
-   # Virtualbox Keys
-   echo "[Justix] Importing Oracle Virtualbox keys..."
-   wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+    # Virtualbox Keys
+    echo "\e[1m\e[93m [Justix] \e[95m Importing Oracle Virtualbox keys... \e[0m"
+    curl "https://www.virtualbox.org/download/oracle_vbox_2016.asc"   | gpg --dearmor > /tmp/oracle.gpg
+    install -o root -g root -m 644 /tmp/oracle.gpg /etc/apt/trusted.gpg.d/
 
     # Docker
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    
+    echo "\e[1m\e[93m [Justix] \e[95m Importing Docker keys... \e[0m"
+    curl -fsSL "https://download.docker.com/linux/ubuntu/gpg" |  gpg --dearmor > /tmp/docker.gpg
+    install -o root -g root -m 644 /tmp/docker.gpg /etc/apt/trusted.gpg.d/
+
     # Xenlism icon theme
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
-    
+    #apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
+    echo "\e[1m\e[93m [Justix] \e[95m Importing Xenlism keys... \e[0m"
+    curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x067FB4A0B6D9380A" |  gpg --dearmor > /tmp/xenlism.gpg
+    install -o root -g root -m 644 /tmp/xenlism.gpg /etc/apt/trusted.gpg.d/
+
+
+    chown -R $USER:$USER ~/.gnupg
     ;;
 
     
