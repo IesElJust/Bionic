@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=PSeInt - Editor e intérprete de pseudocódigo
+Name=pseint
+Type=Application
+Categories=Development;
+Icon=pseint
+Exec=pseint

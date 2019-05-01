@@ -1,8 +1,9 @@
 [Desktop Entry]
 Comment=PSeInt - Editor e intérprete de pseudocódigo
-Encoding=UTF-8
-Name=pseint
+Comment[ca]=PseInt - Editor i intèrpret de pseudocodi
+#Encoding=UTF-8
+Name=PseInt
 Type=Application
-Categories=Development
-Icon=pseint
-Exec="/opt/pseint/wxPSeInt"
+Categories=Development;
+Icon=/usr/share/icons/pseint.png
+Exec="/opt/appImages/pseint-x86_64.AppImage"

@@ -1,3 +1,15 @@
+justix-pseint (0.2) bionic; urgency=high
+
+  * Fixed
+
+ -- Jose <joamuran@gmail.com>  Wed, 01 May 2019 10:55:22 +0200
+
+justix-pseint (0.1) bionic; urgency=high
+
+  * Ported as an appImage
+
+ -- Jose <joamuran@gmail.com>  Tue, 30 Apr 2019 16:38:38 +0200
+
 justix-pseint (0.0.2) bionic; urgency=high
 
   *  Fixed rules
