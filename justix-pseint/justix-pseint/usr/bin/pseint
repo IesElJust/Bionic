@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/opt/appImages/pseint-x86_64.AppImage
+

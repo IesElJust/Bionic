@@ -6,4 +6,4 @@ Name=PseInt
 Type=Application
 Categories=Development;
 Icon=/usr/share/icons/pseint.png
-Exec="/opt/appImages/pseint-x86_64.AppImage"
+Exec=pseint
