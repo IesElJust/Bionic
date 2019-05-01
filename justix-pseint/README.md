@@ -16,6 +16,16 @@ Una vegada hem descarregat l'AppImageKit, podem fer, dins del directori `PseInt.
 $ appimagetool-x86_64.AppImage .
 ```
 
- ARCH=x86_64 appimagetool-x86_64.AppImage .
+O indicant l'arquitectura:
 
-I ens generarà un 
+```
+$ ARCH=x86_64 appimagetool-x86_64.AppImage .
+```
+
+I ens generarà un fitxer.appImage. 
+
+Si posem directament l'appImage dins un `.deb`, sembla que dóne problemes, pel que farem, dins el propi preinstall, que es descarregue l'appImage des de github directament amb:
+
+```
+wget https://github.com/IesElJust/Bionic/blob/master/justix-pseint/pseInt.AppDir/pseint-x86_64.AppImage?raw=true -O pseint-x86_64.AppImage
+```
