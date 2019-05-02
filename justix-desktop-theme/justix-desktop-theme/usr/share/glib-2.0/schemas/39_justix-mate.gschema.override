@@ -1,0 +1,106 @@
+[x.dm.slick-greeter]
+background='/usr/share/backgrounds/justix-default-background.png'
+background-color='#2B2200'
+draw-grid=false
+draw-user-backgrounds=false
+enable-hidpi='auto'
+font-name='Noto Sans 11'
+icon-theme-name='Xenlism-Wildfire-FriDay'
+high-contrast=false
+show-hostname=true
+#logo=Logo file to use
+onscreen-keyboard=false
+#other-monitors-logo=Logo file to use for other monitors
+# play-ready-sound=A sound file to play when the greeter is ready
+screen-reader=false
+show-power=true
+show-a11y=true
+show-keyboard=true
+show-clock=true
+show-quit=true
+theme-name='Arc'
+xft-antialias=true
+xft-dpi=96
+xft-hintstyle='hintslight'
+xft-rgba='rgb'
+
+
+[com.canonical.indicator.session]
+suppress-restart-menuitem=true
+
+[com.solus-project.brisk-menu]
+rollover-activate=true
+search-position='top'
+
+[com.ubuntu.sound]
+allow-amplified-volume=true
+
+[com.ubuntu.update-manager]
+show-details=true
+show-versions=true
+
+[net.launchpad.plank.dock.settings]
+-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
+hide-mode='window-dodge'
+theme='Transparent'
+zoom-enabled=true
+zoom-percent=130
+
+[net.launchpad.plank.docks.dock1]
+icon-size=48
+show-dock-item=false
+position='bottom'
+dock-items=['desktop.dockitem', 'caja.dockitem', 'matecc.dockitem', 'firefox.dockitem']
+unhide-delay=0
+items-alignment='center'
+hide-mode='window-dodge'
+pinned-only=false
+auto-pinning=true
+alignment='center'
+hide-delay=0
+monitor=''
+lock-items=false
+tooltips-enabled=true
+pressure-reveal=false
+offset=0
+current-workspace-only=true
+
+
+[org.gnome.Charmap:MATE]
+font='Noto Sans 22'
+
+[org.mate.panel]
+default-layout='familiar'
+
+
+[org.mate.window-applets.window-buttons]
+control-maximized-window=true
+padding=9
+spacing=1
+theme='Arc'
+
+[org.mate.background]
+picture-opacity=100
+secondary-color='#FC9C08'
+show-desktop-icons=true
+background-fade=true
+primary-color='#5891BC'
+picture-filename='/usr/share/backgrounds/justix-default-background.png'
+color-shading-type='vertical-gradient'
+picture-options='zoom'
+draw-background=true
+
+
+[org.yorba.shotwell.printing]
+titles-font='Noto Sans 12'
+
+
+[org.mate.caja.desktop]
+font='Noto Sans 11'
+
+[org.mate.Marco.general]
+theme='Arc'
+titlebar-font='Noto Sans 11'
+
+[org.mate.applications-terminal]
+exec='tilix'
