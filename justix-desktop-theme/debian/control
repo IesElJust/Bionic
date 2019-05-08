@@ -8,7 +8,7 @@ Homepage: www.ieseljust.com
 
 Package: justix-desktop-theme
 Architecture: any
-Depends: ${misc:Depends}, plank, arc-theme, xenlism-wildfire-icon-theme
+Depends: ${misc:Depends}, plank, arc-theme, xenlism-wildfire-icon-theme, tilix
 Description: Theme for Justix
  Desktop theme configurtion files
  for Justix.

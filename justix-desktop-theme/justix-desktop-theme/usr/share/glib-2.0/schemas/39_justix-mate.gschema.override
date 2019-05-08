@@ -31,6 +31,8 @@ suppress-restart-menuitem=true
 [com.solus-project.brisk-menu]
 rollover-activate=true
 search-position='top'
+dark-theme=true
+label-visible=false
 
 [com.ubuntu.sound]
 allow-amplified-volume=true
@@ -40,7 +42,7 @@ show-details=true
 show-versions=true
 
 [net.launchpad.plank.dock.settings]
--items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
+dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
 hide-mode='window-dodge'
 theme='Transparent'
 zoom-enabled=true
@@ -70,8 +72,7 @@ current-workspace-only=true
 font='Noto Sans 22'
 
 [org.mate.panel]
-default-layout='familiar'
-
+default-layout='justix'
 
 [org.mate.window-applets.window-buttons]
 control-maximized-window=true
@@ -90,10 +91,8 @@ color-shading-type='vertical-gradient'
 picture-options='zoom'
 draw-background=true
 
-
 [org.yorba.shotwell.printing]
 titles-font='Noto Sans 12'
-
 
 [org.mate.caja.desktop]
 font='Noto Sans 11'
@@ -102,5 +101,23 @@ font='Noto Sans 11'
 theme='Arc'
 titlebar-font='Noto Sans 11'
 
+[org.mate.interface]
+icon-theme='Xenlism-Wildfire-FriDay'
+gtk-theme='Arc'
+font-name='Noto 11'
+document-font-name='Noto 11'
+
 [org.mate.applications-terminal]
 exec='tilix'
+
+[org.mate.pluma]
+color-scheme='Arc'
+
+[org.mate.session]
+required-components-list=['windowmanager', 'panel', 'filemanager', 'dock']
+
+[org.mate.session.required-components]
+dock='plank'
+windowmanager='marco'
+panel='mate-panel'
+filemanager='caja'
