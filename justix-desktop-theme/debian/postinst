@@ -33,6 +33,12 @@ case "$1" in
         gtk-update-icon-cache /usr/share/icons/hicolor || true
 
 
+    # Update plymouth
+    update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/macbuntu/justix.plymouth 100
+  	update-alternatives --config default.plymouth
+  	update-initramfs -u
+
+
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

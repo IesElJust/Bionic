@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=justix
+Description=Tema del plymouth per a Justix
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/justix
+ScriptFile=/usr/share/plymouth/themes/justix/justix.script
