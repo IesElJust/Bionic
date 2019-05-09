@@ -34,7 +34,7 @@ case "$1" in
 
 
     # Update plymouth
-    update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/macbuntu/justix.plymouth 100
+    update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/justix/justix.plymouth 100
   	update-alternatives --config default.plymouth
   	update-initramfs -u
 
