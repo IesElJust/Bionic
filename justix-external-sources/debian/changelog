@@ -1,4 +1,4 @@
-justix-external-sources (0.0.7) bionic; urgency=medium
+justix-external-sources (0.0.7) bionic; urgency=high
 
   * Fixed preinst script
 

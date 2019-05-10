@@ -38,7 +38,6 @@ case "$1" in
   	update-alternatives --config default.plymouth
   	update-initramfs -u
 
-
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
