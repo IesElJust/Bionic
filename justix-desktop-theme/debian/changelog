@@ -1,6 +1,6 @@
 justix-desktop-theme (0.6) bionic; urgency=high
 
-  * Added palnk launcher for tilix
+  * Removing dconf unused config
 
  -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 09:49:46 +0200
 

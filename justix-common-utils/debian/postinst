@@ -54,8 +54,14 @@ case "$1" in
 
 
     # Afegint enllaços a les aplicacions per al dock
-    [ -f "/usr/share/applications/com.gexperts.Tilix.desktop" ] && ln -s /usr/share/applications/com.gexperts.Tilix.desktop /usr/share/justix-folder-groups/utils/
-    [ -f "/usr/share/applications/virtualbox.desktop" ] && ln -s /usr/share/applications/virtualbox.desktop /usr/share/justix-folder-groups/utils/
+        for DESKTOP in /usr/share/applications/com.gexperts.Tilix.desktop \
+            /usr/share/applications/virtualbox.desktop; do
+
+              APP=`basename $DESKTOP`
+                
+              [ -f "$DESKTOP" -a ! -L  "/usr/share/justix-folder-groups/utils/$APP" ] && ln -s $DESKTOP /usr/share/justix-folder-groups/utils/
+
+        done
     
     ;;
 

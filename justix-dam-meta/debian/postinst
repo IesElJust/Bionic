@@ -20,10 +20,17 @@ set -e
 
 case "$1" in
     configure)
-    [ -f "/usr/share/applications/code.desktop" ] && ln -s /usr/share/applications/code.desktop /usr/share/justix-folder-groups/devel/
-    [ -f "/usr/share/applications/pseint.desktop" ] && ln -s /usr/share/applications/pseint.desktop /usr/share/justix-folder-groups/devel/
-    [ -f "/usr/share/applications/mysql-workbench.desktop" ] && ln -s mysql-workbench /usr/share/justix-folder-groups/devel/
+  
+    for DESKTOP in /usr/share/applications/code.desktop \
+            /usr/share/applications/pseint.desktop \
+            /usr/share/applications/mysql-workbench.desktop ; do
 
+              APP=`basename $DESKTOP`
+                
+              [ -f "$DESKTOP" -a ! -L  "/usr/share/justix-folder-groups/devel/$APP" ] && ln -s $DESKTOP /usr/share/justix-folder-groups/devel/
+
+    done
+    
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
