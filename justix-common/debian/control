@@ -8,6 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-common
 Architecture: all
+Pre-Depends: justix-desktop-theme
 Depends: ${misc:Depends}
 Description: Common justix config
  Common users config for

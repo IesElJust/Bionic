@@ -53,6 +53,10 @@ case "$1" in
     sed "s/#includedir\ \/etc\/sudoers.d/includedir\ \/etc\/sudoers.d/g" /etc/sudoers
 
 
+    # Afegint enllaços a les aplicacions per al dock
+    [ -f "/usr/share/applications/com.gexperts.Tilix.desktop" ] && ln -s /usr/share/applications/com.gexperts.Tilix.desktop /usr/share/justix-folder-groups/utils/
+    [ -f "/usr/share/applications/virtualbox.desktop" ] && ln -s /usr/share/applications/virtualbox.desktop /usr/share/justix-folder-groups/utils/
+    
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
