@@ -20,6 +20,14 @@ set -e
 
 case "$1" in
     configure)
+
+    # Eliminem tota la configuració prèvia dels usuaris actuals
+    for usr in `ls /home`; do
+      echo -n "/home/$usr/.config/dconf/user"
+      [ -f "/home/$usr/.config/dconf/user" ] && mv "/home/$usr/.config/dconf/user" "/home/$usr/.config/dconf/user.backup"
+      echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/dconf/user to /home/$usr/.config/dconf/user.backup.\e[0m";
+    done
+
     dconf update
 
     [ -x /usr/bin/update-gconf-defaults ]  &&  /usr/bin/update-gconf-defaults
@@ -34,8 +42,8 @@ case "$1" in
 
 
     # Update plymouth
-    update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/justix/justix.plymouth 100
-  	update-alternatives --config default.plymouth
+    update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/justix/justix.plymouth 180
+  	#update-alternatives --config default.plymouth
   	update-initramfs -u
 
     ;;
