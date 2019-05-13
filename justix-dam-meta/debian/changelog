@@ -1,3 +1,9 @@
+justix-dam-meta (0.0.2) bionic; urgency=high
+
+  * Added dockitems for development group for plank
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 13:28:40 +0200
+
 justix-dam-meta (0.0.1) bionic; urgency=high
 
   * Initial Release.

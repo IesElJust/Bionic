@@ -24,6 +24,8 @@ case "$1" in
     [ -f "/usr/share/applications/pseint.desktop" ] && ln -s /usr/share/applications/pseint.desktop /usr/share/justix-folder-groups/devel/
     [ -f "/usr/share/applications/mysql-workbench.desktop" ] && ln -s mysql-workbench /usr/share/justix-folder-groups/devel/
 
+    ;;
+
     abort-upgrade|abort-remove|abort-deconfigure)
     ;;
 
