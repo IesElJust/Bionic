@@ -1,3 +1,10 @@
+justix-desktop-theme (0.5.1) bionic; urgency=high
+
+  * Removing current user config
+  * Removed update-alternatives --config for plymouth
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 08:36:26 +0200
+
 justix-desktop-theme (0.5) bionic; urgency=medium
 
   * Added plymouth
