@@ -1,3 +1,9 @@
+justix-desktop-theme (0.7) bionic; urgency=high
+
+  * Adding diversions for ubuntu-mate-settings-overlay
+
+ -- Jose <joamuran@lgmail.com>  Thu, 16 May 2019 20:07:00 +0200
+
 justix-desktop-theme (0.6) bionic; urgency=high
 
   * Removing dconf unused config

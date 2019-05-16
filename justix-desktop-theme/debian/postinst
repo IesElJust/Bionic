@@ -17,9 +17,22 @@ set -e
 # for details, see https://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+# Diverted files
+ORIG_FILE="/usr/lib/ubuntu-mate/ubuntu-mate-settings-overlay"
+MY_FILE="/usr/lib/ubuntu-mate/justix-mate-settings-overlay"
+MY_PACKAGE="justix-desktop-theme"
 
 case "$1" in
     configure)
+
+    # Afegim les diversions de fitxers
+    if dpkg-divert --package ${MY_PACKAGE} --add  --rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
+	    ln -fs ${MY_FILE} ${ORIG_FILE}
+	else
+	    echo "Unabe to divert file ${ORIG_FILE}"
+	fi 
+
+
 
     # Eliminem tota la configuració prèvia dels usuaris actuals
     for usr in `ls /home`; do

@@ -23,11 +23,12 @@ case "$1" in
   
     for DESKTOP in /usr/share/applications/code.desktop \
             /usr/share/applications/pseint.desktop \
-            /usr/share/applications/mysql-workbench.desktop ; do
+            /usr/share/applications/mysql-workbench.desktop \
+            /usr/share/applications/netbeans.desktop ; do
 
               APP=`basename $DESKTOP`
                 
-              [ -f "$DESKTOP" -a ! -L  "/usr/share/justix-folder-groups/devel/$APP" ] && ln -s $DESKTOP /usr/share/justix-folder-groups/devel/
+              [ -f "$DESKTOP" -a ! -L  "/usr/share/justix/folder-groups/devel/$APP" ] && ln -s $DESKTOP /usr/share/justix/folder-groups/devel/
 
     done
     

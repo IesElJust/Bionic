@@ -59,7 +59,7 @@ case "$1" in
 
               APP=`basename $DESKTOP`
                 
-              [ -f "$DESKTOP" -a ! -L  "/usr/share/justix-folder-groups/utils/$APP" ] && ln -s $DESKTOP /usr/share/justix-folder-groups/utils/
+              [ -f "$DESKTOP" -a ! -L  "/usr/share/justix/folder-groups/utils/$APP" ] && ln -s $DESKTOP /usr/share/justix/folder-groups/utils/
 
         done
     

@@ -23,6 +23,12 @@ case "$1" in
     update-alternatives --remove justix-default-background.png  /usr/share/backgrounds/justix/justix-bg1.png
 	update-alternatives --auto justix-default-background.png
 
+    # Removing diversions
+    if [ -f ${ORIG_FILE}.real ] ; then
+        dpkg-divert --package  ${MY_PACKAGE} --rename --quiet --remove ${ORIG_FILE}|| true
+    fi
+    
+
     ;;
 
     failed-upgrade)
