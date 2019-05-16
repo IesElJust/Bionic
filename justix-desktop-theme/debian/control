@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Jose A. Múrcia <joamuran@gmail.com>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
-Homepage: www.ieseljust.com
+Homepage: http://www.ieseljust.com
 
 Package: justix-desktop-theme
 Architecture: any
