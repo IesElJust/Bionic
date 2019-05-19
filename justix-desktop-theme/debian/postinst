@@ -42,7 +42,7 @@ case "$1" in
       #cp -r /etc/skel/.config /home/$usr/.config
     done
 
-    dconf update
+    #dconf update
 
     #[ -x /usr/bin/update-gconf-defaults ]  &&  /usr/bin/update-gconf-defaults
     
