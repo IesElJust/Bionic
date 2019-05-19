@@ -1,3 +1,9 @@
+justix-dam-meta (0.0.3) bionic; urgency=high
+
+  * Added dependency to justix-desktop-theme
+
+ -- Jose <joamuran@gmail.com>  Sun, 19 May 2019 17:47:32 +0200
+
 justix-dam-meta (0.0.2) bionic; urgency=high
 
   * Added dockitems for development group for plank

@@ -8,6 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-dam-meta
 Architecture: all
+Pre-Depends: justix-desktop-theme
 Depends: ${misc:Depends}, justix-common, justix-common-utils, justix-desktop-theme, justix-db-pack, justix-devel-pack, justix-network-pack, justix-java-pack
 Description: Meta for DAM
  Metapackage for DAM Tools
