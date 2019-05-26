@@ -1,3 +1,10 @@
+justix-common-utils (0.0.6) bionix; urgency=high
+
+  * Checks if VBox Ext Pack is in its last version
+  * Fixed suders issue in postinstall
+
+ -- Jose <joamuran@gmail.com>  Sun, 26 May 2019 09:56:57 +0200
+
 justix-common-utils (0.0.5) bionic; urgency=high
 
   * Added dockitems for plank
