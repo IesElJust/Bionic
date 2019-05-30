@@ -27,6 +27,7 @@ if [ ! -d "${HOME}/.config/plank/dock1" ]; then
     overlay_file config/plank/dock1/launchers/caja.dockitem
     overlay_file config/plank/dock1/launchers/matecc.dockitem
     overlay_file config/plank/dock1/launchers/devel.dockitem
+    overlay_file config/plank/dock1/launchers/utils.dockitem
     overlay_file config/plank/dock1/launchers/common-utils.dockitem
 
 fi

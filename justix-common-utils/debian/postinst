@@ -18,22 +18,33 @@ set -e
 # the debian-policy package
 
 
-case "$1" in
-    configure)
-    
+enable_tilix(){
     # Configuració per a Tilix
+    BASHRC=${1};
     
-    LINIES_VTE=`cat /etc/skel/.bashrc | grep /etc/profile.d/vte.sh | wc -l`
+    #LINIES_VTE=`cat /etc/skel/.bashrc | grep /etc/profile.d/vte.sh | wc -l`
+    LINIES_VTE=`cat ${BASHRC} | grep /etc/profile.d/vte.sh | wc -l`
 
     if [ $LINIES_VTE -eq 0 ]; then
-        echo 'if [ $TILIX_ID ] || [ $VTE_VERSION ]; then' >> /etc/skel/.bashrc
-            echo '    source /etc/profile.d/vte.sh' >> /etc/skel/.bashrc
-        echo 'fi' >> /etc/skel/.bashrc
+        echo 'if [ $TILIX_ID ] || [ $VTE_VERSION ]; then' >> ${BASHRC}
+            echo '    source /etc/profile.d/vte.sh' >> ${BASHRC}
+        echo 'fi' >> ${BASHRC}
     fi
 
     if [ ! -s /etc/profile.d/vte.sh ]; then
         [ -f /etc/profile.d/vte-2.91.sh ] && ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
     fi
+}
+
+case "$1" in
+    configure)
+    
+    # Configure tilix
+    enable_tilix /etc/skel/.bashrc
+
+    for usr in `ls /home`; do
+      enable_tilix "/home/$usr/.bashrc"
+    done
 
     # Afegint el grup docker si no existeix i afegint-li l'usuari alumne
     echo "\e[1m\e[93m [Justix] \e[95m Adding docker group \e[0m";

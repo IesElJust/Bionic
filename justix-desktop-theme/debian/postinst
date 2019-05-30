@@ -52,7 +52,7 @@ case "$1" in
 
     update-alternatives \
 		--install /usr/share/backgrounds/justix-default-background.png justix-default-background.png \
-		/usr/share/backgrounds/justix/bg2.png 500
+		/usr/share/backgrounds/justix/bg3.png 500
 
 
 	update-icon-caches /usr/share/icons/hicolor/scalable/ || true 
