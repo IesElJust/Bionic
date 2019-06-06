@@ -1,5 +1,5 @@
 [x.dm.slick-greeter]
-background='/usr/share/backgrounds/justix-default-background.png'
+background='/usr/share/backgrounds/justix/login.png'
 background-color='#2B2200'
 draw-grid=false
 draw-user-backgrounds=false

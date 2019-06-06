@@ -20,7 +20,7 @@ set -e
 case "$1" in
     remove|upgrade|deconfigure)
 
-    update-alternatives --remove justix-default-background.png  /usr/share/backgrounds/justix/justix-bg1.png
+    update-alternatives --remove justix-default-background.png  /usr/share/backgrounds/justix/desktop.png
 	update-alternatives --auto justix-default-background.png
 
     # Removing diversions
