@@ -1,3 +1,9 @@
+justix-common-utils (0.0.7) bionic; urgency=high
+
+  * Moved devel dockitems from dam meta
+
+ -- Jose <joamuran@gmail.com>  Thu, 06 Jun 2019 11:57:06 +0200
+
 justix-common-utils (0.0.6) bionix; urgency=high
 
   * Checks if VBox Ext Pack is in its last version
