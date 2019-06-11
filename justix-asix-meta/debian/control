@@ -1,4 +1,4 @@
-Source: justix-dam-meta
+Source: justix-asix-meta
 Section: devel
 Priority: standard
 Maintainer: Jose A. Múrcia <joamuran@gmail.com>
@@ -6,10 +6,10 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 Homepage: https://github.com/IesElJust
 
-Package: justix-dam-meta
+Package: justix-asix-meta
 Architecture: all
 Pre-Depends: justix-desktop-theme
-Depends: ${misc:Depends}, justix-common, justix-common-utils, justix-desktop-theme, justix-db-pack, justix-devel-pack, justix-network-pack, justix-java-pack, ghex
-Description: Meta for DAM
- Metapackage for DAM Tools
+Depends: ${misc:Depends}, justix-common, justix-common-utils, justix-desktop-theme, justix-db-pack, justix-devel-pack, justix-network-pack
+Description: Meta for ASIX
+ Metapackage for ASIX Tools
  for Justix.
