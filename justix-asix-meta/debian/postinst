@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for justix-dam-meta
+# postinst script for justix-asix-meta
 #
 # see: dh_installdeb(1)
 
@@ -22,9 +22,7 @@ case "$1" in
     configure)
   
     for DESKTOP in /usr/share/applications/code.desktop \
-            /usr/share/applications/justix-pseint.desktop \
-            /usr/share/applications/mysql-workbench.desktop \
-            /usr/share/applications/netbeans.desktop ; do
+            /usr/share/applications/mysql-workbench.desktop ; do
 
               APP=`basename $DESKTOP`
                 

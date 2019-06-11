@@ -5,7 +5,7 @@ draw-grid=false
 draw-user-backgrounds=false
 enable-hidpi='auto'
 font-name='Noto Sans 11'
-icon-theme-name='Xenlism-Wildfire-FriDay'
+icon-theme-name='Justix'
 high-contrast=false
 show-hostname=true
 #logo=Logo file to use
@@ -102,7 +102,7 @@ theme='Arc'
 titlebar-font='Noto Sans 11'
 
 [org.mate.interface]
-icon-theme='Xenlism-Wildfire-FriDay'
+icon-theme='Justix'
 gtk-theme='Arc'
 font-name='Noto 11'
 document-font-name='Noto 11'
