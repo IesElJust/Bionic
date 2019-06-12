@@ -1,3 +1,9 @@
+justix-asix-meta (0.0.2) bionic; urgency=high
+
+  * Added dependency for justix-cicles-meta
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 09:33:52 +0200
+
 justix-asix-meta (0.0.1) bionic; urgency=high
 
   * Initial Release.
