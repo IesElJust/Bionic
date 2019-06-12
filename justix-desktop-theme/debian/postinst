@@ -39,6 +39,8 @@ case "$1" in
       echo -n "/home/$usr/.config/dconf/user"
       [ -f "/home/$usr/.config/dconf/user" ] && mv "/home/$usr/.config/dconf/user" "/home/$usr/.config/dconf/user.backup"
       echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/dconf/user to /home/$usr/.config/dconf/user.backup.\e[0m";
+      [ -d "/home/$usr/.config/plank" ] && mv "/home/$usr/.config/plank" "/home/$usr/.config/plank.backup"
+      echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/plank to /home/$usr/.config/plank.backup.\e[0m";
       #cp -r /etc/skel/.config /home/$usr/.config
     done
 

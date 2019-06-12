@@ -1,3 +1,9 @@
+justix-desktop-theme (0.12) bionic; urgency=high
+
+  * Added masalla icons for top panel
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 16:06:21 +0200
+
 justix-desktop-theme (0.11) bionic; urgency=high
 
   * Fixed plymoutyh logo size

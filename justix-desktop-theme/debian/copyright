@@ -2,6 +2,10 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: justix-desktop-theme
 Source: http://www.ieseljust.com
 
+Files: justix-desktop-theme/usr/share/icons/justix/*/status
+Copyright: 2019 hayder majid (hayder ctee) <cteehayder@gmail.com>
+License: GPL-3.0+
+
 Files: *
 Copyright: 2019 Jose A. Murcia <joamuran@gmail.com>
 License: GPL-3.0+
