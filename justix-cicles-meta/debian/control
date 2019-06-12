@@ -1,0 +1,15 @@
+Source: justix-cicles-meta
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-cicles-meta
+Architecture: all
+Pre-Depends: justix-desktop-theme
+Depends: ${misc:Depends}, justix-common, justix-common-utils, justix-desktop-theme, justix-network-pack
+Description: Meta for Cicles
+ Metapackage for common applications
+ for Justix.

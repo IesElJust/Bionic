@@ -1,3 +1,9 @@
+justix-dam-meta (0.0.7) bionic; urgency=high
+
+  * New dependency for justix-cicles-meta
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 09:07:13 +0200
+
 justix-dam-meta (0.0.6) bionic; urgency=high
 
   * Added ghex to meta
