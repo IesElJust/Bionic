@@ -65,7 +65,7 @@ case "$1" in
     else
 	[ -z "$(/var/lib/justix-vbox)" ] || rm -r /var/lib/justix-vbox/*
 	wget "http://download.virtualbox.org/virtualbox/${LatestVirtualBoxVersion}/${VBoxExtPack}" --show-progress -o /var/lib/justix-vbox/${VBoxExtPack}
-    sudo VBoxManage extpack install --replace /var/lib/justix-vbox/${VBoxExtPack}
+    VBoxManage extpack install --replace /var/lib/justix-vbox/${VBoxExtPack}
     fi
 
     # La directiva #includedir no és un comentari, açò sobra

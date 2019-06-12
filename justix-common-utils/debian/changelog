@@ -1,3 +1,9 @@
+justix-common-utils (0.0.8) bionic; urgency=high
+
+  * Fixed postinst
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 13:28:02 +0200
+
 justix-common-utils (0.0.7) bionic; urgency=high
 
   * Moved devel dockitems from dam meta
