@@ -1,3 +1,9 @@
+justix-common-utils (0.0.9) bionic; urgency=high
+
+  * Solved vbox extension pack install bug
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 15:31:00 +0200
+
 justix-common-utils (0.0.8) bionic; urgency=high
 
   * Fixed postinst

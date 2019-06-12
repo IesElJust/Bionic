@@ -63,9 +63,9 @@ case "$1" in
     if [ -f "/var/lib/justix-vbox/${VBoxExtPack}"  ]; then
             echo "\e[1m\e[93m [Justix] \e[95m Virtualbox Extension Pack is installed in its last version. Nothing to do here...\e[0m";
     else
-	[ -z "$(/var/lib/justix-vbox)" ] || rm -r /var/lib/justix-vbox/*
-	wget "http://download.virtualbox.org/virtualbox/${LatestVirtualBoxVersion}/${VBoxExtPack}" --show-progress -o /var/lib/justix-vbox/${VBoxExtPack}
-    VBoxManage extpack install --replace /var/lib/justix-vbox/${VBoxExtPack}
+	[ `ls /var/lib/justix-vbox | wc -l` -eq 0 ] || rm -r /var/lib/justix-vbox/*
+	wget "http://download.virtualbox.org/virtualbox/${LatestVirtualBoxVersion}/${VBoxExtPack}" --show-progress -O /var/lib/justix-vbox/${VBoxExtPack}
+    	VBoxManage extpack install --replace /var/lib/justix-vbox/${VBoxExtPack}
     fi
 
     # La directiva #includedir no és un comentari, açò sobra
