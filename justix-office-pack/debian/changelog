@@ -1,3 +1,9 @@
+justix-office-pack (0.0.2) bionic; urgency=high
+
+  * Fixed dependencies
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 09:35:23 +0200
+
 justix-office-pack (0.0.1) bionic; urgency=medium
 
   * Initial Release.
