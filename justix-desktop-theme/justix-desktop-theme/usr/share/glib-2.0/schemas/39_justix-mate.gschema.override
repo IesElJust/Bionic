@@ -102,7 +102,7 @@ theme='Arc'
 titlebar-font='Noto Sans 11'
 
 [org.mate.interface]
-icon-theme='Justix'
+icon-theme='justix'
 gtk-theme='Arc'
 font-name='Noto 11'
 document-font-name='Noto 11'
