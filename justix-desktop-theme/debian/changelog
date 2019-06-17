@@ -1,3 +1,9 @@
+justix-desktop-theme (0.13) bionic; urgency=high
+
+  * hide ubuntu-mate-welcome by default
+
+ -- Jose <joamuran@gmail.com>  Mon, 17 Jun 2019 20:50:35 +0200
+
 justix-desktop-theme (0.12) bionic; urgency=high
 
   * Added masalla icons for top panel

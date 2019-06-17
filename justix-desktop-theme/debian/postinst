@@ -41,7 +41,11 @@ case "$1" in
       echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/dconf/user to /home/$usr/.config/dconf/user.backup.\e[0m";
       [ -d "/home/$usr/.config/plank" ] && mv "/home/$usr/.config/plank" "/home/$usr/.config/plank.backup"
       echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/plank to /home/$usr/.config/plank.backup.\e[0m";
-      #cp -r /etc/skel/.config /home/$usr/.config
+      [ -f "/home/$usr/.config/ubuntu-mate/welcome/preferences.json" ] && mv "/home/$usr/.config/ubuntu-mate/welcome/preferences.json" "/home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup"
+      echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/ubuntu-mate/welcome/preferences.json to /home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup.\e[0m";
+      [ -d /home/$usr/.config/ubuntu-mate/welcome ] || mkdir /home/$usr/.config/ubuntu-mate/welcome
+      cp -r /etc/skel/.config/ubuntu-mate/welcome/preferences.json /home/$usr/.config/ubuntu-mate/welcome/preferences.json
+
     done
 
     #dconf update
