@@ -1,3 +1,9 @@
+justix-desktop-theme (0.14) bionic; urgency=high
+
+  * Removed ubuntu-mate-welcome
+
+ -- Jose <joamuran@gmail.com>  Tue, 18 Jun 2019 20:10:35 +0200
+
 justix-desktop-theme (0.13) bionic; urgency=high
 
   * hide ubuntu-mate-welcome by default
