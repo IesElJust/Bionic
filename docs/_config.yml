@@ -40,7 +40,7 @@ email: informatica.ieseljust@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/Bionic" # the subpath of your site, e.g. /blog
+baseurl: "/Bionic/docs" # the subpath of your site, e.g. /blog
 url: "https://ieseljust.github.io" # the base hostname & protocol for your site
 
 # Social settings
