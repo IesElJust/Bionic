@@ -35,17 +35,33 @@ case "$1" in
 
 
     # Eliminem tota la configuració prèvia dels usuaris actuals
-    TIMESTAMP=`date +%s` # Per guardar 
+    
     for usr in `ls /home`; do
-      echo -n "/home/$usr/.config/dconf/user"
-      [ -f "/home/$usr/.config/dconf/user" ] && mv "/home/$usr/.config/dconf/user" "/home/$usr/.config/dconf/user.backup.$TIMESTAMP"
-      echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/dconf/user to /home/$usr/.config/dconf/user.backup.$TIMESTAMP\e[0m";
-      [ -d "/home/$usr/.config/plank" ] && mv "/home/$usr/.config/plank" "/home/$usr/.config/plank.backup.$TIMESTAMP"
-      echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/plank to /home/$usr/.config/plank.backup.$TIMESTAMP\e[0m";
-      [ -f "/home/$usr/.config/ubuntu-mate/welcome/preferences.json" ] && mv "/home/$usr/.config/ubuntu-mate/welcome/preferences.json" "/home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup.$TIMESTAMP"
-      echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/ubuntu-mate/welcome/preferences.json to /home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup.$TIMESTAMP\e[0m";
-      [ -d /home/$usr/.config/ubuntu-mate/welcome ] || mkdir /home/$usr/.config/ubuntu-mate/welcome
-      cp -r /etc/skel/.config/ubuntu-mate/welcome/preferences.json /home/$usr/.config/ubuntu-mate/welcome/preferences.json
+      #echo -n "/home/$usr/.config/dconf/user"
+      if [ -f "/home/$usr/.config/dconf/user" ]; then
+        [ -f "/home/$usr/.config/dconf/user.backup" ] && rm /home/$usr/.config/dconf/user.backup
+        mv "/home/$usr/.config/dconf/user" "/home/$usr/.config/dconf/user.backup"
+        echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/dconf/user to /home/$usr/.config/dconf/user.backup\e[0m";
+      fi      
+      
+      if [ -d "/home/$usr/.config/plank" ]; then
+        [ -d "/home/$usr/.config/plank.backup" ] && rm -r /home/$usr/.config/plank.backup
+        mv "/home/$usr/.config/plank" "/home/$usr/.config/plank.backup"
+        echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/plank to /home/$usr/.config/plank.backup\e[0m";
+      fi 
+      
+      if [ -f "/home/$usr/.config/ubuntu-mate/welcome/preferences.json" ]; then
+        [ -f "/home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup" ] && rm /home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup
+        mv "/home/$usr/.config/ubuntu-mate/welcome/preferences.json" "/home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup"
+        echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/ubuntu-mate/welcome/preferences.json to /home/$usr/.config/ubuntu-mate/welcome/preferences.json.backup.$TIMESTAMP\e[0m";
+        
+        [ -d /home/$usr/.config/ubuntu-mate/welcome ] || mkdir /home/$usr/.config/ubuntu-mate/welcome
+        cp -r /etc/skel/.config/ubuntu-mate/welcome/preferences.json /home/$usr/.config/ubuntu-mate/welcome/preferences.json
+
+      fi
+       
+      
+      
 
     done
 
@@ -53,6 +69,9 @@ case "$1" in
 
     #[ -x /usr/bin/update-gconf-defaults ]  &&  /usr/bin/update-gconf-defaults
     
+    # Update panel layout for current user
+    mate-panel --replace --reset
+
     if update-gconf-defaults > /dev/null; then 
       update-gconf-defaults
     fi
