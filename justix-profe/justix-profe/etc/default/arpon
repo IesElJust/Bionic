@@ -1,0 +1,22 @@
+# Options for arpon(8)
+
+# You must choose between static ARP inspection (SARPI), dynamic ARP inspection
+# (DARPI), and hybrid ARP inspection' (HARPI).  You can also pass other options
+# to the daemon as explained in arpon(8), but do NOT pass `--daemon` or
+# `--interface` (those will be added automatically as needed).
+
+#DAEMON_ARGS="--sarpi"
+ DAEMON_ARGS="--darpi"
+# DAEMON_ARGS="--harpi"
+
+# when using systemd you have to enable arpon explicitly for each interface
+# you want to run it on:
+ systemctl enable arpon@enp2s0
+# systemctl start arpon@IFACE
+
+
+# For the LSB init script, enter a list of interfaces into the list below;
+# arpon will be started to protect ARP on these interfaces.
+# Note: This is ignored when using systemd!
+# INTERFACES="eth0 eth1"
+INTERFACES=""
