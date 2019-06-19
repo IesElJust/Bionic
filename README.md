@@ -42,7 +42,12 @@ $ sudo apt-get install justix-external-sources
 
 Amb açò configurarem diversos fitxers de font de programari, i actualitzarem automàticament la llista de paquets. 
 
-3. Instal·lat els metapaquets corresponents
+3. Instal·lat els metapaquet de cicles genèric
+
+```
+$ sudo apt install justix-cicles-meta
+```
+Aquest paquet arrastra tot el que siga comú. Virtualbox, docker, etc....
 
 Ara ja podem instal·lar els metapaquets necessaris per a cada cicle. Estos metapaquets ja arrosseguen tot allò necessari per a cadascun, sempre que la seua llicència ho permeta:
 
@@ -55,10 +60,10 @@ $ sudo apt install justix-dam-meta
 ```
 
 ```
-sudo apt-install justix-smx-meta
+$ sudo apt-install justix-smx-meta
 ```
 
 
 // TO-DO: Fem aci una xicoteta descripció de cada paquet
-El paquet `justix-common-utils` descarrega i instal·la automàticament el paquet d'extensions del VirtualBox (VB Extension Pack). Contestem que si. Es crea l'usuari alumne/alumne automàticament, que estarà al grup de docker i podrà actualitzar l'equip. COMPTE!!! No és usuari administrador!!!! Sols pot actualitzar l'equip.
+El paquet `justix-common-utils` descarrega i instal·la automàticament el paquet d'extensions del VirtualBox (VB Extension Pack). Contestem que si. Es crea l'usuari alumne/alumne automàticament, que estarà al grup de docker i podrà actualitzar l'equip. COMPTE!!! Alumne no és usuari administrador!!!! Sols pot actualitzar l'equip.
 
