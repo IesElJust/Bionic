@@ -1,5 +1,6 @@
 ---
 title: Continguts
+permalink: /contingut/caracteristiques
 ---
 
 # Què podem trobar
