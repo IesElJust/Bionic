@@ -8,7 +8,6 @@
   <meta name="description"
     content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
-<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <!-- per a Local: link rel="stylesheet" type="text/css" media="screen"
     href="https://ieseljust.github.io/Bionic/assets/css/style.css?v=5c7ad3113142e88e184533c6be311b4733a104fa"-->
@@ -18,12 +17,7 @@
     href="https://cdn.jsdelivr.net/npm/startbootstrap-sb-admin@5.1.1/css/sb-admin.min.css">
   <link rel="stylesheet" type="text/css" media="screen"
     href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.9.0/css/all.min.css">
-=======
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!--link rel="stylesheet" type="text/css" media="screen" href="https://chrisbobbe.github.io/jekyll-theme-prologue/assets/css/main.css"-->
->>>>>>> 5c7ad3113142e88e184533c6be311b4733a104fa
-
-
 
   <title>{{ site.title | default: site.github.repository_name }}</title>
 </head>
@@ -45,7 +39,7 @@
             </section>
           {% endif %}
 
-	{% include nav.html %}
+	{include nav.html}
 
         </header-->
   <!-- Header -->
@@ -109,7 +103,7 @@
 
 
     <div id="content-wrapper">
-      <header class="py-5 mb-5" style="background-image: url(../_img/background.png); background-position-y: center; background-size:cover;">
+      <header style="text-align:center; border:0px; margin:0px;" class="py-5 mb-5" style="background-image: url(../_img/background.png); background-position-y: center; background-size:cover;">
         <!-- header -->
         <div class="container h-100">
           <div class="row h-100 align-items-center">
@@ -121,7 +115,7 @@
             </div>
           </div>
         </div>
-        <p style="text-align:center; border:0px; margin:0px;" class="col-md-12"><a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a></p>
+        <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
       </header>
 
 
@@ -139,11 +133,8 @@
 
 
       </div> <!-- container-fluid -->
-
-    </div>
-    <!--Content wrapper -->
-
-    <!-- FOOTER  -->
+	    
+	    <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
@@ -166,27 +157,15 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-<<<<<<< HEAD
+
+    </div>
+    <!--Content wrapper -->
+
 
   </div><!-- wrapper -->
 
 
+body>
 
-
-
-
-
-
-
-  </div>
-
-
-
-
+</html>
 </body>
-
-</html>
-=======
-  </body>
-</html>
->>>>>>> 5c7ad3113142e88e184533c6be311b4733a104fa
