@@ -1,0 +1,5 @@
+check-hostname (1.0.1) bionic; urgency=high
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 23 Mar 2019 20:02:45 +0100

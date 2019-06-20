@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Check Hostname
+Comment=Comprova el nom del host
+Categories=
+Terminal=false
+Type=Application
+Exec=/usr/bin/check_hostname.sh
+#OnlyShowIn=MATE;
+StartupNotify=false
+NoDisplay=true
+X-MATE-Autostart-Delay=10
+

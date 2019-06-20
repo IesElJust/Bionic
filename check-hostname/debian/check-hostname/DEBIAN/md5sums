@@ -1,0 +1,4 @@
+c72bd9a71f882d023e9cb62ecdc89fc9  usr/bin/check_hostname.sh
+943686d970918304f5ab118f29c5a510  usr/bin/update_hostname.sh
+d77b70d9d1c5f7f3f7831bfe4fdd0214  usr/share/doc/check-hostname/changelog.gz
+97d89930120116cbc13d19c2e34d5ab0  usr/share/doc/check-hostname/copyright
