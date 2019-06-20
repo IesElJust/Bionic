@@ -6,5 +6,5 @@ description: >- # this means to ignore newlines until "baseurl:"
 author: Departament d'informàtica de l'IES El Just
 email: informatica.ieseljust@gmail.com
 # avatar: assets/images/avatar.jpg
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 
