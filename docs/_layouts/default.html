@@ -124,7 +124,7 @@
 
 
         <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="outer">
+        <div id="main_content_wrap" class="outer container
           <section id="main_content" class="inner">
             {{ content }}
           </section>
@@ -136,7 +136,7 @@
 	    
 	    <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
+      <footer class="inner sticky-footer">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a
             href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -164,8 +164,6 @@
 
   </div><!-- wrapper -->
 
-
-body>
-
-</html>
 </body>
+</html>
+
