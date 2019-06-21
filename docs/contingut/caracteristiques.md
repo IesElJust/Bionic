@@ -3,7 +3,7 @@ title: Continguts
 permalink: /caracteristiques
 ---
 
-# Què conté de JustiX?
+# Què conté JustiX?
 
 JustiX està pensada per instal·lar-se sobre la base d'una Ubuntu Mate 18.04, sobre la que instal·la programari i configuracions addicionals.
 
