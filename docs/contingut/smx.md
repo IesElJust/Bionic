@@ -29,6 +29,7 @@ El programari multimèdia s'incorpora a través del metapaquet `justix-multimedi
 
 ## Arbre de dependències
 
+```
 justix-smx-meta
    justix-desktop-theme
    justix-cicles-meta
@@ -40,7 +41,7 @@ justix-smx-meta
         inkscape
         audcity
         kdenlive
-
+```
 
 
 

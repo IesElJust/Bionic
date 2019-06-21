@@ -56,7 +56,7 @@ A través del paquet `justix-network-pack`, s'instal·la el següent programari:
 
 A continuació es detalla l'arbre de dependències del paquet `justix-cicles-meta`:
 
-
+```
 justix-cicles-meta
    justix-desktop-theme
      plank
@@ -80,3 +80,4 @@ justix-cicles-meta
      openssh-server
      filezilla
      google-chrome-stable
+```

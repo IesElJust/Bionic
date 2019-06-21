@@ -27,6 +27,7 @@ Les eines de desenvolupament incorporades en Justix s'instal·len amb el paquet 
 
 ## Arbre de dependències
 
+```
 justix-asix-meta
     justix-asix-meta
     justix-desktop-theme
@@ -39,3 +40,4 @@ justix-asix-meta
         justix-external-sources
         code
         justix-pseint
+```

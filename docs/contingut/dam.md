@@ -42,6 +42,7 @@ A més, s'incorpora l'eina `ghex` per analitzar codi compilar.
 
 # Arbre de dependències
 
+```
 justix-dam-meta
     justix-desktop-theme
     justix-cicles-meta
@@ -59,3 +60,4 @@ justix-dam-meta
         gradle
         gradle-ppa
      ghex
+```
