@@ -7,6 +7,8 @@ permalink: /base
 
 El paquet que s'encarrega de realitzar la instal·lació de programari de base per als cicles és el `justix-cicles-meta`. Aquest paquet realitza la instal·lació de diversos metapaquets que aporten progrmari divers. Veiem com s'organitza aquest.
 
+!(Escriptori)[https://raw.githubusercontent.com/IesElJust/Bionic/master/docs/_img/escriptori.png]
+
 ## Entorn d'escriptori
 
 La capa de personalització de l'escriptori es realitza a través del paquet `justix-cicles-meta`, i afig el següent **programari** al sistema:

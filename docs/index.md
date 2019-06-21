@@ -8,3 +8,4 @@ Justix és una capa de programari i configuració per sobre d'Ubuntu Mate per ta
 
 Justix no és, per tant, una distribució Linux com a tal.
 
+![img](https://raw.githubusercontent.com/IesElJust/Bionic/master/docs/_img/inici.png)
