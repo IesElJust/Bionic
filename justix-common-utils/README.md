@@ -13,6 +13,7 @@ Metapaquet d'eines d'ús comú.
 | virtualbox-6.0 | Hipervisor de màquines virtuals | Oracle |
 | docker-ce | Eina per al desplegament d'aplicacions dins de contenidors | https://download.docker.com/linux/ubuntu |
 | docker-compose | Eina per definir múltiples contenidors sobre Docker | https://download.docker.com/linux/ubuntu |
+| vagrant | Utulitat per a la creació i distribució d'entorns de desenvolupament virtualitzats | Ubuntu |
 
 
 

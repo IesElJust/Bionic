@@ -1,3 +1,9 @@
+justix-common-utils (0.0.10) bionic; urgency=medium
+
+  * Added vagrant package as dependency
+
+ -- Jose <joamuran@gmail.com>  Tue, 09 Jul 2019 16:56:29 +0200
+
 justix-common-utils (0.0.9) bionic; urgency=high
 
   * Solved vbox extension pack install bug
