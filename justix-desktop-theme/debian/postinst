@@ -59,7 +59,7 @@ case "$1" in
 
 	    # Eliminant l'autoarranc de l'ubuntu-mate-welcome
 
-        [ -d "/home/$usr/.config/ubuntu-mate/welcome" ] || mkdir "/home/$usr/.config/ubuntu-mate/welcome"
+        [ -d "/home/$usr/.config/ubuntu-mate/welcome" ] || mkdir -p "/home/$usr/.config/ubuntu-mate/welcome"
         cp -r "/etc/skel/.config/ubuntu-mate/welcome/preferences.json" "/home/$usr/.config/ubuntu-mate/welcome/preferences.json"
 
 

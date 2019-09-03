@@ -1,3 +1,9 @@
+justix-desktop-theme (0.14.1) bionic; urgency=high
+
+  * Fixed -p on mkdir for ubuntu-mate-welcome dir creation
+
+ -- Jose <joamuran@gmail.com>  Tue, 03 Sep 2019 10:52:45 +0200
+
 justix-desktop-theme (0.14) bionic; urgency=high
 
   * Removed ubuntu-mate-welcome
