@@ -23,12 +23,26 @@ creaProfe()
 # for details, see https://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+# Diverted files
+ORIG_FILE="/etc/default/arpon"
+MY_FILE="/etc/default/arpon.justix"
+MY_PACKAGE="justix-profe"
 
 case "$1" in
     configure)
-	    # Afegint l'usuari profe
-	    echo "\e[1m\e[93m [Justix] \e[95m Adding user profe \e[0m";
-	    `grep -q profe /etc/passwd` || creaProfe
+
+
+	# Afegim les diversions de fitxers
+    	if dpkg-divert --package ${MY_PACKAGE} --add  --rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
+            ln -fs ${MY_FILE} ${ORIG_FILE}
+        else
+            echo "Unabe to divert file ${ORIG_FILE}"
+        fi
+
+
+	# Afegint l'usuari profe
+	echo "\e[1m\e[93m [Justix] \e[95m Adding user profe \e[0m";
+	`grep -q profe /etc/passwd` || creaProfe
 
         # Activant arpon
         systemctl enable arpon.service
