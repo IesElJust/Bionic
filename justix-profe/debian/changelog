@@ -1,3 +1,9 @@
+justix-profe (0.0.2) bionic; urgency=high
+
+  * Fixed diversions for arpon
+
+ -- Jose <joamuran@gmail.com>  Tue, 03 Sep 2019 12:38:46 +0200
+
 justix-profe (0.0.1) bionic; urgency=high
 
   * Initial Release.
