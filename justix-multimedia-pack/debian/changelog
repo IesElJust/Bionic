@@ -1,3 +1,9 @@
+justix-multimedia-pack (0.0.2) bionic; urgency=high
+
+  * Fixed audacity dependency
+
+ -- Jose <joamuran@gmail.com>  Wed, 04 Sep 2019 10:26:39 +0200
+
 justix-multimedia-pack (0.0.1) bionic; urgency=medium
 
   * Initial Release.

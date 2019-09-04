@@ -8,7 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-multimedia-pack
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, inkscape, audcity, kdenlive
+Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, inkscape, audacity, kdenlive
 Description: Multimedia pack for Justix
  Metapackage for Multimedia and
  design tools.
