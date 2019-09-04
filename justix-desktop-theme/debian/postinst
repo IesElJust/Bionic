@@ -74,10 +74,10 @@ case "$1" in
     #[ -x /usr/bin/update-gconf-defaults ]  &&  /usr/bin/update-gconf-defaults
     
     # Update panel layout for current user
-    mate-panel --replace --reset
+    mate-panel --replace --reset || echo "\e[1m\e[93m [Justix] \e[38;5;208m  S'ha produït un error ressetejant mate-panel. Es continúa l'execució. \e[0m"
 
     if update-gconf-defaults > /dev/null; then 
-      update-gconf-defaults
+      update-gconf-defaults || echo "\e[1m\e[93m [Justix] \e[38;5;208m  S'ha produït un error actualitzant gconf. Es continúa l'execució. \e[0m"
     fi
 
     update-alternatives \
