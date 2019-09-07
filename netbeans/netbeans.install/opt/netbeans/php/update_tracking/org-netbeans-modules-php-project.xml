@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.project">
+    <module_version install_time="1563282032096" last="true" origin="installer" specification_version="2.141">
+        <file crc="1602136690" name="config/Modules/org-netbeans-modules-php-project.xml"/>
+        <file crc="4000459255" name="docs/phpsigfiles.zip"/>
+        <file crc="298788202" name="modules/org-netbeans-modules-php-project.jar"/>
+    </module_version>
+</module>
