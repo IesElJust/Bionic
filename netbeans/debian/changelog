@@ -1,3 +1,9 @@
+netbeans (11.1+justix3) bionic; urgency=high
+
+  * Added libc6 as a build dependency
+
+ -- Jose <joamuran@gmail.com>  Sun, 08 Sep 2019 17:59:03 +0200
+
 netbeans (11.1+justix2) bionic; urgency=high
 
   * Fixed dependencies

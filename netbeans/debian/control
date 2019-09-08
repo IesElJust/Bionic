@@ -2,7 +2,7 @@ Source: netbeans
 Section: devel
 Priority: standard
 Maintainer: Jose A. Múrcia <joamuran@gmail.com>
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10),libc6
 Standards-Version: 4.1.2
 Homepage: https://github.com/IesElJust
 
