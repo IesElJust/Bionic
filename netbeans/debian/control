@@ -8,6 +8,6 @@ Homepage: https://github.com/IesElJust
 
 Package: netbeans
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},libc6
 Description: Binaries for netbeans
  Netbeans IDE for Justix
