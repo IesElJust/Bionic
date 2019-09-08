@@ -1,3 +1,9 @@
+netbeans (11.1+justix2) bionic; urgency=high
+
+  * Fixed dependencies
+
+ -- Jose <joamuran@gmail.com>  Sun, 08 Sep 2019 12:10:34 +0200
+
 netbeans (11.1+justix1) bionic; urgency=high
 
   * Updates from upstream
