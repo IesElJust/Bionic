@@ -1,3 +1,15 @@
+netbeans (11.1+justix5) bionic; urgency=high
+
+  * Removed nativeexecution/Linux-x86 folder
+
+ -- Jose <joamuran@gmail.com>  Mon, 09 Sep 2019 06:21:13 +0200
+
+netbeans (11.1+justix4) bionic; urgency=high
+
+  * fixed arch for amd64
+
+ -- Jose <joamuran@gmail.com>  Sun, 08 Sep 2019 18:28:23 +0200
+
 netbeans (11.1+justix3) bionic; urgency=high
 
   * Added libc6 as a build dependency

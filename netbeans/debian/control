@@ -7,7 +7,7 @@ Standards-Version: 4.1.2
 Homepage: https://github.com/IesElJust
 
 Package: netbeans
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends},libc6
 Description: Binaries for netbeans
  Netbeans IDE for Justix
