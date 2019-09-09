@@ -8,7 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-db-pack
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, mysql-workbench, mongodb-org
+Depends: ${shlibs:Depends}, ${misc:Depends}, mysql-workbench, mongodb-org, mysql-server
 Description: Database pack for Justix
  Metapackage for Database tools
  for Justix.

@@ -1,3 +1,9 @@
+justix-dam-meta (0.0.8) bionic; urgency=high
+
+  * Added pandoc dependency
+
+ -- Jose <joamuran@gmail.com>  Mon, 09 Sep 2019 15:23:51 +0200
+
 justix-dam-meta (0.0.7) bionic; urgency=high
 
   * New dependency for justix-cicles-meta

@@ -1,3 +1,9 @@
+justix-db-pack (0.0.2) bionic; urgency=high
+
+  * Added mysql-server dependency
+
+ -- Jose <joamuran@gmail.com>  Mon, 09 Sep 2019 15:22:15 +0200
+
 justix-db-pack (0.0.1) bionic; urgency=medium
 
   * Initial Release.
