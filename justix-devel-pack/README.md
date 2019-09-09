@@ -7,4 +7,5 @@ Metapaquet d'eines per al desenvolupament
 | Paquet | Descripció | PPA |
 |-------|-----------|-------|
 | code | Visual Studio Code | https://packages.microsoft.com/repos/vscode |
-| justix-pseint | Editor de pseudocodi | PPA Ies el Just |
+| justix-pseint | Editor de pseudocodi | ppa:ieseljust/bionic |
+| geany | Editor de codi | Ubuntu |
