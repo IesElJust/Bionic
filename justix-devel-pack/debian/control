@@ -9,7 +9,7 @@ Homepage: https://github.com/IesElJust
 Package: justix-devel-pack
 Architecture: any
 Pre-Depends: justix-external-sources
-Depends: ${shlibs:Depends}, ${misc:Depends}, code, justix-pseint
+Depends: ${shlibs:Depends}, ${misc:Depends}, code, justix-pseint, geany
 Description: Developement justix pack
  Metapackage for Common Developement tools
  for Justix.
