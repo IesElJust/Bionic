@@ -1,0 +1,9 @@
+netbeans source: source-is-missing netbeans.install/opt/netbeans/ide/bin/nativeexecution/Linux-x86_64/killall
+netbeans source: source-is-missing netbeans.install/opt/netbeans/ide/bin/nativeexecution/Linux-x86_64/process_start
+netbeans source: source-is-missing netbeans.install/opt/netbeans/ide/bin/nativeexecution/Linux-x86_64/pty
+netbeans source: source-is-missing netbeans.install/opt/netbeans/ide/bin/nativeexecution/Linux-x86_64/pty_open
+netbeans source: source-is-missing netbeans.install/opt/netbeans/ide/bin/nativeexecution/Linux-x86_64/sigqueue
+netbeans source: source-is-missing netbeans.install/opt/netbeans/ide/bin/nativeexecution/Linux-x86_64/stat
+netbeans source: missing-license-paragraph-in-dep5-copyright apache license (paragraph at line 5)
+netbeans source: space-in-std-shortname-in-dep5-copyright apache license (paragraph at line 5)
+
