@@ -1,3 +1,9 @@
+justix-multimedia-pack (0.0.3) bionic; urgency=high
+
+  * Added ttf-mscorefonts-installer to meta
+
+ -- Jose <joamuran@gmail.com>  Mon, 16 Sep 2019 09:21:12 +0200
+
 justix-multimedia-pack (0.0.2) bionic; urgency=high
 
   * Fixed audacity dependency

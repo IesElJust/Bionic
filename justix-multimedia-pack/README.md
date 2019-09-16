@@ -10,3 +10,4 @@ Aplicacions incloses:
 | Inkscape | Gràfics vectiorials | Ubuntu |
 | Audacity | Editor d'àudio | Ubuntu |
 | KDEnlive | Editor de vídeo | Ubuntu |
+| ttf-mscorefonts-installer | Fonts de MS | Ubuntu |
