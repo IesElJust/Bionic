@@ -20,7 +20,14 @@ function overlay_file() {
     fi
 }
 
-if [ ! -d "${HOME}/.config/plank/dock1" ]; then
+function remove_redundant_plank(){
+    for i in vlc.dockitem vlc-1.dockitem thunderbird.dockitem thunderbird-1.dockitem eom.dockitem; do
+	    [ -f "${HOME}/.config/plank/dock1/launchers/${i}" ] && rm "${HOME}/.config/plank/dock1/launchers/${i}"
+    done
+}
+
+if [ -d "${HOME}/.config/plank/dock1" ]; then
+    remove_redundant_plank
     #overlay_file config/plank/dock1/launchers/clock.dockitem
     overlay_file config/plank/dock1/launchers/desktop.dockitem
     overlay_file config/plank/dock1/launchers/firefox.dockitem

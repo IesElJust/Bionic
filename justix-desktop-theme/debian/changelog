@@ -1,3 +1,9 @@
+justix-desktop-theme (0.14.3) bionic; urgency=high
+
+  * Fixing plank config
+
+ -- Jose <joamuran@gmail.com>  Wed, 25 Sep 2019 11:30:18 +0200
+
 justix-desktop-theme (0.14.2) bionic; urgency=high
 
   * Added control errors to postinsts
