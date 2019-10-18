@@ -9,7 +9,7 @@ Homepage: https://github.com/IesElJust
 Package: justix-dam-meta
 Architecture: all
 Pre-Depends: justix-desktop-theme, justix-cicles-meta
-Depends: ${misc:Depends}, justix-db-pack, justix-devel-pack, justix-java-pack, ghex, pandoc
+Depends: ${misc:Depends}, justix-db-pack, justix-devel-pack, justix-java-pack, ghex, pandoc, rcs, rcs-blame, subversion, git
 Description: Meta for DAM
  Metapackage for DAM Tools
  for Justix.

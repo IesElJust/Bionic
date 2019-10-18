@@ -1,3 +1,9 @@
+justix-dam-meta (0.0.9) bionic; urgency=high
+
+  * Added version control systems: rcs, subversion, git
+
+ -- Jose <joamuran@gmail.com>  Fri, 18 Oct 2019 06:18:45 +0200
+
 justix-dam-meta (0.0.8) bionic; urgency=high
 
   * Added pandoc dependency
