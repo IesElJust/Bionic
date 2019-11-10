@@ -1,3 +1,9 @@
+justix-java-pack (0.0.2) bionic; urgency=high
+
+  * Added /etc/profile.d/java-home.sh to set JAVA_HOME
+
+ -- Jose <joamuran@gmail.com>  Sun, 10 Nov 2019 17:04:00 +0100
+
 justix-java-pack (0.0.1) bionic; urgency=medium
 
   * Initial Release.
