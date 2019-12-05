@@ -1,3 +1,9 @@
+justix-devel-pack (0.0.5) bionic; urgency=high
+
+  * Added nodejs and npm
+
+ -- Jose <joamuran@gmail.com>  Thu, 05 Dec 2019 09:10:26 +0100
+
 justix-devel-pack (0.0.4) bionic; urgency=high
 
   * Added geany dependency
