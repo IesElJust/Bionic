@@ -1,3 +1,9 @@
+justix-common (0.0.4) bionic; urgency=high
+
+  * Added VBoxExtPackHelperApp to sudoers.d/alumne
+
+ -- Jose <joamuran@gmail.com>  Fri, 13 Dec 2019 10:33:23 +0100
+
 justix-common (0.0.3) bionic; urgency=high
 
   * Added qemu to sudoers.d/alumne
