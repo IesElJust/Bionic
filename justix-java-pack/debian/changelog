@@ -1,3 +1,9 @@
+justix-java-pack (0.0.3) bionic; urgency=high
+
+  * Added ant and maven
+
+ -- Jose <joamuran@gmail.com>  Fri, 10 Jan 2020 10:04:01 +0100
+
 justix-java-pack (0.0.2) bionic; urgency=high
 
   * Added /etc/profile.d/java-home.sh to set JAVA_HOME

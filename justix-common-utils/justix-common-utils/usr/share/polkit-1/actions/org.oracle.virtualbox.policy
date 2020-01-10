@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+   <action id="org.oracle.virtualbox">
+      <description xml:lang="es">Actualitzar Virtualbox Extension Pack</description>
+      <message xml:lang="es">Necessiteu autenticació per actualitzar l'Extension Pack de Virtualbox</message>
+      <icon_name>virtualbox</icon_name>
+      <defaults>
+         <allow_any>no</allow_any>
+         <allow_inactive>auth_self</allow_inactive>
+         <allow_active>auth_self</allow_active>
+      </defaults>
+      <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/virtualbox/VBoxExtPackHelperApp</annotate>
+      <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+   </action>
+</policyconfig>

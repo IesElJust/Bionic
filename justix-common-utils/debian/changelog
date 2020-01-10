@@ -1,3 +1,9 @@
+justix-common-utils (0.0.13) bionic; urgency=high
+
+  * Added /usr/share/polkit-1/actions/org.oracle.virtualbox.policy to enable alumne to update VBox Extension Pack
+
+ -- Jose <joamuran@gmail.com>  Sun, 15 Dec 2019 16:33:19 +0100
+
 justix-common-utils (0.0.12) bionic; urgency=high
 
   * Updated Virtualbox dependency from 6.0 to 6.1
