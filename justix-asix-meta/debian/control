@@ -9,7 +9,7 @@ Homepage: https://github.com/IesElJust
 Package: justix-asix-meta
 Architecture: all
 Pre-Depends: justix-desktop-theme, justix-cicles-meta
-Depends: ${misc:Depends}, justix-db-pack, justix-devel-pack
+Depends: ${misc:Depends}, justix-db-pack, justix-devel-pack, justix-audit-tools
 Description: Meta for ASIX
  Metapackage for ASIX Tools
  for Justix.
