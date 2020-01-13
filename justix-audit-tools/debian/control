@@ -1,0 +1,15 @@
+Source: justix-audit-tools
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-audit-tools
+Architecture: all
+# Pre-Depends: ..
+Depends: ${misc:Depends},whois
+Description: Meta for Audit Tools
+ Metapackage for Audit tools
+ for Justix.

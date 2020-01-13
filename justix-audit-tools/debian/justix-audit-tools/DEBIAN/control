@@ -1,0 +1,12 @@
+Package: justix-audit-tools
+Version: 0.0.1
+Architecture: all
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Installed-Size: 10
+Depends: whois
+Section: devel
+Priority: standard
+Homepage: https://github.com/IesElJust
+Description: Meta for Audit Tools
+ Metapackage for Audit tools
+ for Justix.
