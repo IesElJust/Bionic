@@ -1,3 +1,9 @@
+justix-external-sources (0.0.8) bionic; urgency=medium
+
+  * Added Otto06217 ppa for Gimp Stable and keys
+
+ -- Jose <joamuran@gmail.com>  Mon, 27 Apr 2020 09:00:58 +0200
+
 justix-external-sources (0.0.7) bionic; urgency=high
 
   * Fixed preinst script
