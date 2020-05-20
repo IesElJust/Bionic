@@ -8,7 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-smx-meta
 Architecture: all
-Pre-Depends: justix-desktop-theme, justix-cicles-meta
+Pre-Depends: justix-desktop-theme, justix-cicles-meta, snapd
 Depends: ${misc:Depends}, justix-office-pack, justix-multimedia-pack
 Description: Meta for SMX
  Metapackage for SMX Tools
