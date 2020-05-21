@@ -1,3 +1,9 @@
+justix-common-utils (0.0.14) bionic; urgency=high
+
+  * Added ubuntu-make as dependency.
+
+ -- Jose <joamuran@gmail.com>  Thu, 21 May 2020 15:59:13 +0200
+
 justix-common-utils (0.0.13) bionic; urgency=high
 
   * Added /usr/share/polkit-1/actions/org.oracle.virtualbox.policy to enable alumne to update VBox Extension Pack
