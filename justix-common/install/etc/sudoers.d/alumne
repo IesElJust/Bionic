@@ -36,6 +36,7 @@ Cmnd_Alias CMD_APT_DIST_UPGRADE = /usr/bin/apt dist-upgrade
 Cmnd_Alias CMD_APT_CLEAN = /usr/bin/apt clean
 Cmnd_Alias CMD_QEMU=/usr/bin/qemu-system-x86_64
 Cmnd_Alias CMD_UPDATE_VBOX_EXTPACK = /usr/lib/virtualbox/VBoxExtPackHelperApp
+Cmnd_Alias CMD_UMAKE = /usr/bin/umake
 
 #### REGLES
 ALUMNE ALL = PASSWD:CMD_APT_GET_UPDATE
@@ -48,3 +49,5 @@ ALUMNE ALL = PASSWD:CMD_APT_DIST_UPGRADE
 ALUMNE ALL = PASSWD:CMD_APT_CLEAN
 ALUMNE ALL = PASSWD:CMD_QEMU
 ALUMNE ALL = PASSWD:CMD_UPDATE_VBOX_EXTPACK
+ALUMNE ALL = PASSWD:CMD_UMAKE
+
