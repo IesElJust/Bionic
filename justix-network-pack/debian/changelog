@@ -1,3 +1,9 @@
+justix-network-pack (0.0.3) bionic; urgency=high
+
+  * Added: net-tools, eththool and mininet
+
+ -- Jose <joamuran@gmail.com>  Fri, 22 May 2020 13:16:34 +0200
+
 justix-network-pack (0.0.2) bionic; urgency=medium
 
   * Added Google Chrome
