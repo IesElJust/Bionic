@@ -1,3 +1,9 @@
+justix-external-sources (0.0.9) bionic; urgency=high
+
+  * Added original gradle ppa
+
+ -- Jose <joamuran@gmail.com>  Fri, 22 May 2020 16:56:44 +0200
+
 justix-external-sources (0.0.8) bionic; urgency=medium
 
   * Added Otto06217 ppa for Gimp Stable and keys

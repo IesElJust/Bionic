@@ -55,6 +55,12 @@ case "$1" in
     curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xFB97E9C3A97F85C095AEA7903BDAAC08614C4B38" |  gpg --dearmor > /tmp/gimp.gpg
     install -o root -g root -m 644 /tmp/gimp.gpg /etc/apt/trusted.gpg.d/
 
+    # Gradle
+    echo "\e[1m\e[93m [Justix] \e[95m Importing Gradle keys... \e[0m"
+    curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3D16156328D0E3056D885D0BD7CC6F019D06AF36" |  gpg --dearmor > /tmp/gradle.gpg
+    install -o root -g root -m 644 /tmp/gradle.gpg /etc/apt/trusted.gpg.d/
+
+
     chown -R $USER:$USER ~/.gnupg
     ;;
 
