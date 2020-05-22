@@ -1,6 +1,7 @@
 justix-common (0.0.5) bionic; urgency=high
 
   * Added umake to sudoers.d/alumne
+  * Added mn and mnexec from mininet to sudoers
 
  -- Jose <joamuran@gmail.com>  Thu, 21 May 2020 15:57:19 +0200
 
