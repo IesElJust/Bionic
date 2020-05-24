@@ -1,3 +1,9 @@
+justix-external-sources (0.0.10) bionic; urgency=high
+
+  * Added ubuntu make ppa
+
+ -- Jose <joamuran@gmail.com>  Sun, 24 May 2020 17:23:14 +0200
+
 justix-external-sources (0.0.9) bionic; urgency=high
 
   * Added original gradle ppa

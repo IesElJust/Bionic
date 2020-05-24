@@ -60,6 +60,12 @@ case "$1" in
     curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3D16156328D0E3056D885D0BD7CC6F019D06AF36" |  gpg --dearmor > /tmp/gradle.gpg
     install -o root -g root -m 644 /tmp/gradle.gpg /etc/apt/trusted.gpg.d/
 
+    # Ubuntu make
+    echo "\e[1m\e[93m [Justix] \e[95m Importing Ubuntu make keys... \e[0m"
+    curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2A8F89B722D1D6630348601343FDBC385ADA701F" |  gpg --dearmor > /tmp/umake.gpg
+    install -o root -g root -m 644 /tmp/umake.gpg /etc/apt/trusted.gpg.d/
+
+
 
     chown -R $USER:$USER ~/.gnupg
     ;;
