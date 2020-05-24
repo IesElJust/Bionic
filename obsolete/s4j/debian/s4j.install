@@ -1,3 +1,0 @@
-client/dist/s4j-client.js /usr/share/s4j
-server/dist/s4j-server.js  /usr/share/s4j
-s4j/* /

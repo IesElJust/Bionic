@@ -1,3 +1,0 @@
-#!/bin/bash
-
-nodejs /usr/share/s4j/s4j-client $*
