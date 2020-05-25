@@ -39,6 +39,7 @@ Cmnd_Alias CMD_UPDATE_VBOX_EXTPACK = /usr/lib/virtualbox/VBoxExtPackHelperApp
 Cmnd_Alias CMD_UMAKE = /usr/bin/umake
 Cmnd_Alias CMD_MN = /usr/bin/mn
 Cmnd_Alias CMD_MNEXEC = /usr/bin/mnexec
+Cmnd_Alias CMD_SNAPREFRESH = /usr/bin/snap refresh
 
 #### REGLES
 ALUMNE ALL = PASSWD:CMD_APT_GET_UPDATE
@@ -54,3 +55,5 @@ ALUMNE ALL = PASSWD:CMD_UPDATE_VBOX_EXTPACK
 ALUMNE ALL = PASSWD:CMD_UMAKE
 ALUMNE ALL = PASSWD:CMD_MN
 ALUMNE ALL = PASSWD:CMD_MNEXEC
+ALUMNE ALL = PASSWD:CMD_SNAPREFRESH
+
