@@ -9,7 +9,7 @@ Homepage: https://github.com/IesElJust
 Package: justix-java-pack
 Architecture: any
 Pre-Depends: justix-external-sources
-Depends: ${shlibs:Depends}, ${misc:Depends}, default-jre, openjdk-11-jdk, gradle, ant, maven
+Depends: ${shlibs:Depends}, ${misc:Depends}, default-jre, openjdk-11-jdk, gradle, ant, maven, snapd
 Description: Java justix pack
  Metapackage for Common Java Developement 
  tools for Justix.
