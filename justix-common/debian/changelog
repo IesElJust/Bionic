@@ -1,4 +1,4 @@
-justix-common (0.0.6) UNRELEASED; urgency=high
+justix-common (0.0.6) bionic; urgency=high
 
   * Added "snap refresh" command to alumne sudoers
 
