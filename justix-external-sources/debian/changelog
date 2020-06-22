@@ -1,3 +1,9 @@
+justix-external-sources (0.0.11) bionic; urgency=high
+
+  * Check if ~/.gnupg exists before set chown
+
+ -- Jose <joamuran@gmail.com>  Mon, 22 Jun 2020 09:42:46 +0200
+
 justix-external-sources (0.0.10) bionic; urgency=high
 
   * Added ubuntu make ppa

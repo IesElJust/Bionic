@@ -67,7 +67,7 @@ case "$1" in
 
 
 
-    chown -R $USER:$USER ~/.gnupg
+    [ -d ~/.gnupg ] && chown -R $USER:$USER ~/.gnupg
     ;;
 
 

@@ -8,7 +8,8 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-common-utils
 Architecture: all
-Pre-Depends: justix-external-sources, justix-common, ubuntu-mate-default-settings
+#Pre-Depends: justix-external-sources, justix-common, ubuntu-mate-default-settings
+Pre-Depends: justix-external-sources, justix-common
 Depends: ${misc:Depends}, tilix, vim, tree, virtualbox-6.1, docker-ce, docker-compose, vagrant,qemu-kvm, qemu-system-x86, qemu-utils,ubuntu-make
 Description: Common justix tools
  Metapackage for Common tools
