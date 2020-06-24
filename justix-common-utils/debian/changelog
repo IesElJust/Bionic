@@ -1,3 +1,9 @@
+justix-common-utils (0.0.15) bionic; urgency=high
+
+  * Moved /usr/share/{justix,ubuntu-mate} to justix-desktop-theme
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 00:07:48 +0200
+
 justix-common-utils (0.0.14) bionic; urgency=high
 
   * Added ubuntu-make as dependency.

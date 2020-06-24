@@ -8,6 +8,7 @@ Homepage: http://www.ieseljust.com
 
 Package: justix-desktop-theme
 Architecture: any
+Pre-Depends: ubuntu-mate-default-settings
 Depends: ${misc:Depends}, gconf2, plank, arc-theme, xenlism-wildfire-icon-theme, tilix
 Description: Theme for Justix
  Desktop theme configurtion files

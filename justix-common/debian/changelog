@@ -1,3 +1,9 @@
+justix-common (0.0.7) bionic; urgency=high
+
+  * Added ubiquity and install capabilities for asix, dam and smx metas.
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 00:12:26 +0200
+
 justix-common (0.0.6) bionic; urgency=high
 
   * Added "snap refresh" command to alumne sudoers

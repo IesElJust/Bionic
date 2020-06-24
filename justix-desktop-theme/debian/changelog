@@ -1,3 +1,9 @@
+justix-desktop-theme (0.15) bionic; urgency=high
+
+  * Moved /usr/share/{justix,ubuntu-mate} from justix-common-utils
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 00:10:29 +0200
+
 justix-desktop-theme (0.14.3) bionic; urgency=high
 
   * Fixing plank config

@@ -33,6 +33,12 @@ Cmnd_Alias CMD_APT_GET_CLEAN = /usr/bin/apt-get clean
 Cmnd_Alias CMD_APT_UPDATE = /usr/bin/apt update
 Cmnd_Alias CMD_APT_UPGRADE = /usr/bin/apt upgrade
 Cmnd_Alias CMD_APT_DIST_UPGRADE = /usr/bin/apt dist-upgrade
+Cmnd_Alias CMD_APT_INSTALL_ASIX = /usr/bin/apt install justix-asix-meta
+Cmnd_Alias CMD_APT_INSTALL_DAM = /usr/bin/apt install justix-dam-meta
+Cmnd_Alias CMD_APT_INSTALL_SMX = /usr/bin/apt install justix-smx-meta
+Cmnd_Alias CMD_APT_GET_INSTALL_ASIX = /usr/bin/apt-get install justix-asix-meta
+Cmnd_Alias CMD_APT_GET_INSTALL_DAM = /usr/bin/apt-get install justix-dam-meta
+Cmnd_Alias CMD_APT_GET_INSTALL_SMX = /usr/bin/apt-get install justix-smx-meta
 Cmnd_Alias CMD_APT_CLEAN = /usr/bin/apt clean
 Cmnd_Alias CMD_QEMU=/usr/bin/qemu-system-x86_64
 Cmnd_Alias CMD_UPDATE_VBOX_EXTPACK = /usr/lib/virtualbox/VBoxExtPackHelperApp
@@ -40,6 +46,7 @@ Cmnd_Alias CMD_UMAKE = /usr/bin/umake
 Cmnd_Alias CMD_MN = /usr/bin/mn
 Cmnd_Alias CMD_MNEXEC = /usr/bin/mnexec
 Cmnd_Alias CMD_SNAPREFRESH = /usr/bin/snap refresh
+Cmnd_Alias CMD_UBIQUITY = /usr/bin/ubiquity
 
 #### REGLES
 ALUMNE ALL = PASSWD:CMD_APT_GET_UPDATE
@@ -56,4 +63,10 @@ ALUMNE ALL = PASSWD:CMD_UMAKE
 ALUMNE ALL = PASSWD:CMD_MN
 ALUMNE ALL = PASSWD:CMD_MNEXEC
 ALUMNE ALL = PASSWD:CMD_SNAPREFRESH
-
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_ASIX
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_DAM
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_SMX
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_ASIX
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_DAM
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_SMX
+ALUMNE ALL = PASSWD:CMD_UBIQUITY

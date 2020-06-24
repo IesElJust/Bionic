@@ -1,3 +1,9 @@
+justix-java-pack (0.0.6) bionic; urgency=high
+
+  * Fixed snap installation for netbeans
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 00:20:23 +0200
+
 justix-java-pack (0.0.5) bionic; urgency=high
 
   * Added netbenas snap installation on postinst
