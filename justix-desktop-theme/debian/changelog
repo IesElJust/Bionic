@@ -1,3 +1,9 @@
+justix-desktop-theme (0.15.1) bionic; urgency=high
+
+  * Added justix-text.plymouth
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 19:18:02 +0200
+
 justix-desktop-theme (0.15) bionic; urgency=high
 
   * Moved /usr/share/{justix,ubuntu-mate} from justix-common-utils

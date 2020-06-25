@@ -91,6 +91,8 @@ case "$1" in
 
     # Update plymouth
     update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/justix/justix.plymouth 180
+    update-alternatives --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/justix/justix-text.plymouth 180
+
   	#update-alternatives --config default.plymouth
   	update-initramfs -u
 
