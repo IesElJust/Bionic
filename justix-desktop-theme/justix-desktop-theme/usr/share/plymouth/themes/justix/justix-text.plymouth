@@ -1,0 +1,15 @@
+[Plymouth Theme]
+Name=Justix Text
+Description=Text mode theme based on Justix theme
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Justix 18.04
+# Background
+black=0x520062
+# Title Text + Additional messages such as key interrupt
+white=0xffffff
+# Dot coloring
+brown=0x69604f
+# Status message (fsck)
+blue=0xffc800

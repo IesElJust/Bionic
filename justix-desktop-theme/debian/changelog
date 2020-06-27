@@ -1,3 +1,10 @@
+justix-desktop-theme (0.16) bionic; urgency=high
+
+  * Fixed plymouth
+  * Added new release background
+
+ -- Jose <joamuran@gmail.com>  Sat, 27 Jun 2020 18:04:35 +0200
+
 justix-desktop-theme (0.15.1) bionic; urgency=high
 
   * Added justix-text.plymouth
