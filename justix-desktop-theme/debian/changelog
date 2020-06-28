@@ -1,3 +1,9 @@
+justix-desktop-theme (0.16.1) bionic; urgency=high
+
+  * Fixed postinst for previous plank config checks
+
+ -- Jose <joamuran@gmail.com>  Sun, 28 Jun 2020 10:55:18 +0200
+
 justix-desktop-theme (0.16) bionic; urgency=high
 
   * Fixed plymouth

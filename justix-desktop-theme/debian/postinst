@@ -44,7 +44,8 @@ case "$1" in
         echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/dconf/user to /home/$usr/.config/dconf/user.backup\e[0m";
       fi      
       
-      if [ -d "/home/$usr/.config/plank" ]; then
+      if [ -d "/home/$usr/.config/plank" -a -f "home/$usr/.config/plank/dock1/launchers/vlc-1.dockitem" ]; then
+      
         [ -d "/home/$usr/.config/plank.backup" ] && rm -r "/home/$usr/.config/plank.backup"
         mv "/home/$usr/.config/plank" "/home/$usr/.config/plank.backup"
         echo "\e[1m\e[93m [Justix] \e[95m Moved  /home/$usr/.config/plank to /home/$usr/.config/plank.backup\e[0m";
